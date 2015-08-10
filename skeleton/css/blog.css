@@ -1,0 +1,283 @@
+/* ------------------------
+Primary Element Customization
+------------------------ */
+
+.content {
+	padding-top: 0.5rem;
+}
+
+.footer {
+	font-size: 1.2rem;
+	color: #999;
+	text-align: center;
+}
+/* ------------------------
+Paginator
+------------------------ */
+
+#paginator {
+	margin: 20px 0;
+}
+
+#paginator ul {
+	clear: both;
+	list-style-type: none;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+
+#paginator li {
+	display: block;
+}
+
+#paginator li.left {
+	float: left !important;
+}
+
+#paginator li.list {
+	background: #e0e0e0;
+	color: #747474;
+	padding: 2px 11px;
+}
+
+#paginator li.right {
+	float: right !important;
+}
+/* ------------------------
+Pages and Posts
+------------------------ */
+
+.home.post,
+.home.page {
+	margin-top: 5rem;
+}
+/*scale down the heading sizes in the home page blog post previews*/
+
+.home h1 {
+	font-size: 3.0rem
+}
+
+.home h2 {
+	font-size: 2.7rem
+}
+
+.home h3 {
+	font-size: 2.25rem
+}
+
+.home h4 {
+	font-size: 1.8rem
+}
+
+.home h5 {
+	font-size: 1.35rem
+}
+
+.home h6 {
+	font-size: 1.125rem
+}
+
+.page-title,
+.post-title {
+	margin: 0;
+}
+
+.page-title a,
+.post-title a {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 3px solid #1eaedb;
+	border-bottom: 3px solid rgba(30, 174, 219, 0);
+}
+
+.page-title a:hover,
+.post-title a:hover {
+	border-bottom: 3px solid #1EAEDB;
+	display: inline-block;
+}
+
+.post-content,
+.page-content {
+	padding-top: 3rem;
+}
+
+.home .post-content,
+.home .page-content {
+	padding-top: 1rem;
+}
+
+.page a.read-more,
+.post a.read-more {
+	display: block;
+	/*    text-align: center;
+*/
+	
+	padding-top: 2px;
+}
+
+.post-meta,
+.page-meta {
+	font-size: 90%;
+	margin: 0;
+}
+
+.post-meta span.date,
+.page-meta span.date {
+	color: #999;
+	margin-right: 10px;
+}
+
+.post-meta span.author,
+.page-meta span.author {
+	color: #ccc;
+}
+/* ------------------------
+Navigation
+------------------------ */
+/*
+clear skeleton css default
+*/
+
+nav li {
+	margin: 0
+}
+/*nav top menu styles*/
+
+nav {
+	margin-top: 1.5rem;
+	text-transform: uppercase;
+}
+/*hide generic title*/
+
+nav h2 {
+	display: none;
+}
+
+nav ul {
+	list-style: none;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a {
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.2rem;
+	width: 100%;
+}
+
+nav ul li {
+	position: relative;
+	float: left;
+	margin-right: 1rem;
+	padding: 0.5rem;
+	min-width: 1rem;
+	min-height: 1rem;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	margin-left: -0.5rem;
+	/*deduct the right padding for nav ul li*/
+	
+	margin-top: 0.5rem;
+	/*add the bottom padding for nav ul li*/
+}
+
+nav ul ul li {
+	float: none;
+	width: 15rem;
+}
+
+nav ul ul a {
+	line-height: 120%;
+}
+
+nav ul li ul li {
+	margin-right: 0;
+}
+
+nav ul li:hover,
+nav ul li:hover > ul {
+	display: block;
+	background: #0FA0CE;
+}
+
+nav ul li:hover > ul li a,
+nav ul li:hover > a {
+	color: #FFF;
+}
+
+nav ul li:hover,
+nav ul li ul li:hover {
+	background: #0d799b;
+}
+/* ------------------------
+Responsive
+------------------------ */
+
+@media (min-width: 768px) {
+	.content {
+		padding-top: 2.5rem;
+	}
+	nav {
+		margin-top: 3rem;
+	}
+	nav ul li {
+		display: block;
+		float: none;
+		list-style-type: none;
+		padding: 0;
+		margin-right: 0;
+	}
+	nav ul li:hover,
+	nav ul li:hover > ul,
+	nav ul li:hover > ul li a,
+	nav ul li:hover > a,
+	nav ul li:hover,
+	nav ul li ul li:hover {
+		color: #1EAEDB;
+		background: none;
+	}
+	nav ul a {
+		margin-bottom: 1rem;
+	}
+	nav ul a:hover {
+		text-decoration: underline;
+	}
+	nav ul ul {
+		margin-left: 1rem;
+		margin-top: 0;
+		position: relative;
+		left: 0;
+		display: block;
+		opacity: 1;
+		visibility: visible;
+	}
+	nav ul ul li {
+		width: auto;
+	}
+	.home h1 {
+		font-size: 3.75rem
+	}
+	.home h2 {
+		font-size: 3.15rem
+	}
+	.home h3 {
+		font-size: 2.7rem
+	}
+	.home h4 {
+		font-size: 2.25rem
+	}
+	.home h5 {
+		font-size: 1.8rem
+	}
+	.home h6 {
+		font-size: 1.125rem
+	}
+}
