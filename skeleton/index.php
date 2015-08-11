@@ -9,7 +9,7 @@
 <body>
 
 <!-- Plugins -->
-<?php Theme::plugins('onSiteBodyBegin') ?>
+<?php Theme::plugins('siteBodyBegin') ?>
 
 <!-- Layout -->
 <div id="layout" class="container">
@@ -49,7 +49,7 @@
 
 
 <!-- Plugins -->
-<?php Theme::plugins('onSiteBodyEnd') ?>
+<?php Theme::plugins('siteBodyEnd') ?>
 
 </body>
 </html>
