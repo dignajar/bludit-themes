@@ -40,7 +40,7 @@
 
 <!-- Plugins -->
 <?php
-	Theme::plugins('onSiteHead');
+	Theme::plugins('siteHead');
 ?>
 
 

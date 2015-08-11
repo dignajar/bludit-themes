@@ -2,5 +2,5 @@
 
 <!-- Plugins -->
 <?php
-	Theme::plugins('onSiteSidebar');
+	Theme::plugins('siteSidebar');
 ?>
