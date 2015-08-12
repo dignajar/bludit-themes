@@ -13,6 +13,9 @@
 </head>
 <body>
 
+<!-- Plugins Site Body Begin -->
+<?php Theme::plugins('siteBodyBegin') ?>
+
 	<!-- Header -->
 	<header id="header">
 		<h1><a href="<?php echo $Site->homeLink() ?>"><?php echo $Site->title() ?></a></h1>
@@ -62,5 +65,8 @@
 	<!--[if lte IE 8]><script src="<?php echo HTML_PATH_THEME.'assets/js/ie/respond.min.js' ?>"></script><![endif]-->
 	<script src="<?php echo HTML_PATH_THEME.'assets/js/main.js' ?>"></script>
 
-	</body>
+<!-- Plugins Site Body End -->
+<?php Theme::plugins('siteBodyEnd') ?>
+
+</body>
 </html>

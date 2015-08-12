@@ -15,7 +15,7 @@
 	elseif( $Url->whereAmI()=='page' ) {
 		Theme::keywords( $Page->tags() );
 	}
-
-	// Plugins
-	Theme::plugins('onSiteHead');
 ?>
+
+<!-- Plugins Site Head -->
+<?php Theme::plugins('siteHead') ?>

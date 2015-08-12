@@ -2,7 +2,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- 
+<!--
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 
 <?php
@@ -27,7 +27,7 @@
 	// <link rel="stylesheet" type="text/css" href="blog.css">
 	Theme::css(array(
 		'normalize.css',
-		'skeleton.css',		
+		'skeleton.css',
 		'blog.css'
 	));
 
@@ -37,13 +37,5 @@
 
 ?>
 
-
-<!-- Plugins -->
-<?php
-	Theme::plugins('onSiteHead');
-?>
-
-
-
-
-
+<!-- Plugins Site Head -->
+<?php Theme::plugins('siteHead') ?>

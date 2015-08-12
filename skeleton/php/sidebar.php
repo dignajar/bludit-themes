@@ -1,6 +1,2 @@
-
-
-<!-- Plugins -->
-<?php
-	Theme::plugins('onSiteSidebar');
-?>
+<!-- Plugins Sidebar -->
+<?php Theme::plugins('siteSidebar') ?>
