@@ -13,11 +13,8 @@ You can push your Bludit themes here
 A dead simple, responsive boilerplate. Website: http://getskeleton.com
 
 Author: Bludit
-
 Version: 0.1
-
 Website: http://www.bludit.com
-
 Download: 
 
 ### Saturn
