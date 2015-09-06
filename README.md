@@ -11,10 +11,14 @@ You can push your Bludit themes here
 
 ### Skeleton
 A dead simple, responsive boilerplate. Website: http://getskeleton.com
-- Author: Bludit
-- Version: 0.1
-- Website: http://www.bludit.com
-- Download: 
+
+Author: Bludit
+
+Version: 0.1
+
+Website: http://www.bludit.com
+
+Download: 
 
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and imported by Diego Najar for Bludit.
