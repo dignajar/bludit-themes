@@ -1,6 +1,8 @@
 # Bludit Themes
 Push your Bludit themes here!
 
+*Note, the zip files inside /dist/ are automatically generated, do not push inside this folder, thanks*
+
 ## How to install a theme
 - Download the theme.
 - Unzip if necessary.
