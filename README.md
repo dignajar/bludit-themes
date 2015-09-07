@@ -19,7 +19,7 @@ A dead simple, responsive boilerplate. Website: http://getskeleton.com
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/skeleton.zip?raw=true)
 
 ### Saturn
-Minimalist theme design by Afnizar Nur Ghifari and imported by Diego Najar for Bludit.
+Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
 - Author: Afnizar Nur Ghifari
 - Version: 1.0
 - Website: https://dribbble.com/flamekaizar
