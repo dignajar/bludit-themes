@@ -20,7 +20,14 @@
 				</nav>
 
 				<nav id="navbar-1" class="navbar item-nav navbar-right">
-				<?php echo $plugins['all']['pluginPages']->siteSidebar() ?>
+				<?php
+					if( $plugins['all']['pluginPages']->installed() ) {
+						echo $plugins['all']['pluginPages']->siteSidebar();
+					}
+					else {
+						echo 'Enable the plugin Pages.';
+					}
+				?>
 				</nav>
 			</header>
 		</div>
