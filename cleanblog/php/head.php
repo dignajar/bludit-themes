@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="<?php $Site->description() ?>">
+<meta name="description" content="<?php echo $Site->description() ?>">
 
-<title><?php $Site->title() ?></title>
+<title><?php echo $Site->title() ?></title>
 
 <!-- Bootstrap Core CSS -->
 <?php Theme::css('bootstrap.min.css') ?>
