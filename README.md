@@ -18,6 +18,13 @@ A dead simple, responsive boilerplate. Website: http://getskeleton.com
 - Website: http://www.bludit.com
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/skeleton.zip?raw=true)
 
+### Clean Blog
+Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
+- Author: Start Bootstrap
+- Version: 0.1
+- Website: http://startbootstrap.com/template-overviews/clean-blog/
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/cleanblog.zip?raw=true)
+
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
 - Author: Afnizar Nur Ghifari
