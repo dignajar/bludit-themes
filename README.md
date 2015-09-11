@@ -28,7 +28,7 @@ Clean blog is a carefully styled Bootstrap blog theme that is perfect for person
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
 - Author: Afnizar Nur Ghifari
-- Version: 1.0
+- Version: 1.1
 - Website: https://dribbble.com/flamekaizar
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Saturn.zip?raw=true)
 
