@@ -11,19 +11,19 @@ Push your Bludit themes here!
 
 ## Theme list
 
-### Skeleton
-A dead simple, responsive boilerplate. Website: http://getskeleton.com
-- Author: Bludit
-- Version: 0.1
-- Website: http://www.bludit.com
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/skeleton.zip?raw=true)
-
 ### Clean Blog
 Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
 - Author: Start Bootstrap
 - Version: 0.1
 - Website: http://startbootstrap.com/template-overviews/clean-blog/
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/cleanblog.zip?raw=true)
+
+### Eventually
+Eventually is design by HTML5 UP. Website http://html5up.net
+- Author: Bludit
+- Version: 0.1
+- Website: http://www.bludit.com
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/eventually.zip?raw=true)
 
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
@@ -32,10 +32,10 @@ Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bl
 - Website: https://dribbble.com/flamekaizar
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/saturn.zip?raw=true)
 
-### Eventually
-Eventually is design by HTML5 UP. Website http://html5up.net
+### Skeleton
+A dead simple, responsive boilerplate. Website: http://getskeleton.com
 - Author: Bludit
 - Version: 0.1
 - Website: http://www.bludit.com
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/eventually.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/skeleton.zip?raw=true)
 
