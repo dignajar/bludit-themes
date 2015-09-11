@@ -1,0 +1,12 @@
+{
+	"theme-data":
+	{
+		"name": "Clean Blog",
+		"description": "Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.",
+		"author": "Start Bootstrap",
+		"email": "",
+		"website": "http://startbootstrap.com/template-overviews/clean-blog/",
+		"version": "0.1",
+		"releaseDate": "2015-09-11"
+	}
+}
