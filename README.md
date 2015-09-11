@@ -30,7 +30,7 @@ Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bl
 - Author: Afnizar Nur Ghifari
 - Version: 1.1
 - Website: https://dribbble.com/flamekaizar
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Saturn.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/saturn.zip?raw=true)
 
 ### Eventually
 Eventually is design by HTML5 UP. Website http://html5up.net
