@@ -1,0 +1,71 @@
+{
+    "result": {
+        "title": "All Bludit Ressources",       
+		"themes": [
+			{
+				"id":1,
+				"cat":"theme",
+				"type":"free",
+				"name":"Skeleton",
+				"releaseDate":"2015-08-02",
+				"screenshot":"http:\/\/nsa38.casimages.com\/img\/2015\/09\/11\/150911123227341005.png",
+				"description":"The goal of this theme is to provide a minimal starting structure for designers & developers. It is based on Skeleton, a popular ultra-lightweight CSS library.",
+				"archive":"https:\/\/github.com\/dignajar\/bludit-themes\/blob\/master\/dist\/skeleton.zip?raw=true",
+				"author":"Bludit",
+				"email":"",
+				"website":"http:\/\/bludit.com",
+				"version":"0.1",
+				"compatibility":"0.1 rc5a & +",
+				"support":"http:\/\/forum.bludit.com"
+			},
+			{
+				"id":2,
+				"cat":"theme",
+				"type":"free",
+				"name":"Eventually",
+				"releaseDate":"2015-08-02",
+				"screenshot":"http:\/\/nsa37.casimages.com\/img\/2015\/09\/11\/150911123623951907.png",
+				"description":"A simple template for telling the world when you'll launch your next big thing. Brought to you by HTML5 UP.",
+				"archive":"https:\/\/github.com\/dignajar\/bludit-themes\/blob\/master\/dist\/eventually.zip?raw=true",
+				"author":"Bludit",
+				"email":"",
+				"website":"http:\/\/bludit.com",
+				"version":"0.1",
+				"compatibility":"0.1 rc5a & +",
+				"support":"http:\/\/forum.bludit.com"
+			},
+			{
+				"id":3,
+				"cat":"theme",
+				"type":"free",
+				"name":"Saturn",
+				"releaseDate":"2015-09-06",
+				"screenshot":"http://nsa38.casimages.com/img/2015/09/11/150911011142104486.png",
+				"description":"Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.",
+				"archive":"https:\/\/github.com\/dignajar\/bludit-themes\/blob\/master\/dist\/saturn.zip?raw=true",
+				"author":"Afnizar Nur Ghifari",
+				"email":"",
+				"website":"http:\/\/bludit.com",
+				"version":"1.0",
+				"compatibility":"0.1 rc5a & +",
+				"support":"http:\/\/forum.bludit.com\/viewtopic.php?f=14&t=76"
+			},
+			{
+				"id":4,
+				"cat":"theme",
+				"type":"free",
+				"name":"Clean Blog",
+				"releaseDate":"2015-09-11",
+				"screenshot":"http:\/\/nsa37.casimages.com\/img\/2015\/09\/12\/150912104956256353.png",
+				"description":"Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.",
+				"archive":"https:\/\/github.com\/dignajar\/bludit-themes\/blob\/master\/dist\/cleanblog.zip?raw=true",
+				"author":"Start Bootstrap",
+				"email":"",
+				"website":"http:\/\/startbootstrap.com\/template-overviews\/clean-blog\/",
+				"version":"0.1",
+				"compatibility":"0.1 rc5a & +",
+				"support":"http:\/\/forum.bludit.com\/viewtopic.php?f=14&t=79"
+			}										
+        ]        
+    }
+}
