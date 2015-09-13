@@ -55,14 +55,14 @@
 				"cat":"theme",
 				"type":"free",
 				"name":"Clean Blog",
-				"releaseDate":"2015-09-11",
+				"releaseDate":"2015-09-12",
 				"screenshot":"http:\/\/nsa37.casimages.com\/img\/2015\/09\/12\/150912104956256353.png",
 				"description":"Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.",
 				"archive":"https:\/\/github.com\/dignajar\/bludit-themes\/blob\/master\/dist\/cleanblog.zip?raw=true",
 				"author":"Start Bootstrap",
 				"email":"",
 				"website":"http:\/\/startbootstrap.com\/template-overviews\/clean-blog\/",
-				"version":"0.1",
+				"version":"1.0",
 				"compatibility":"0.1 rc5a & +",
 				"support":"http:\/\/forum.bludit.com\/viewtopic.php?f=14&t=79"
 			}										
