@@ -3,7 +3,7 @@
 // --- COVER IMAGE ------------------------------------------------------------
 // --- by Diego Najar for Bludit ----------------------------------------------
 
-// Default cover image.
+// Default cover image for homepage.
 $coverImage = HTML_PATH_THEME_IMG.'/home-bg.jpg';
 
 // Check module DOM if installed.
@@ -52,15 +52,21 @@ if( extension_loaded('dom') && isset($posts[0]) )
             <!-- Foreach post -->
             <?php foreach ($posts as $Post): ?>
 
-            <div class="post-preview">
-                <a href="<?php echo $Post->permalink() ?>">
-                    <h2 class="post-title"><?php echo $Post->title() ?></h2>
-                    <h3 class="post-subtitle"><?php echo $Post->description() ?></h3>
-                </a>
-                <p class="post-meta"><?php echo $Language->g('Posted By').' '.$Post->username().' '.$Post->date() ?></p>
-            </div>
+                <!-- Plugins Post Begin -->
+                <?php Theme::plugins('postBegin') ?>
 
-            <hr>
+                <div class="post-preview">
+                    <a href="<?php echo $Post->permalink() ?>">
+                        <h2 class="post-title"><?php echo $Post->title() ?></h2>
+                        <h3 class="post-subtitle"><?php echo $Post->description() ?></h3>
+                    </a>
+                    <p class="post-meta"><?php echo $Language->g('Posted By').' '.$Post->username().' '.$Post->date() ?></p>
+                </div>
+
+                <!-- Plugins Post End -->
+                <?php Theme::plugins('postEnd') ?>
+
+                <hr>
 
             <?php endforeach; ?>
 

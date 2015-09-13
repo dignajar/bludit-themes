@@ -3,8 +3,8 @@
 // --- COVER IMAGE ------------------------------------------------------------
 // --- by Diego Najar for Bludit ----------------------------------------------
 
-// Default cover image.
-$coverImage = HTML_PATH_THEME_IMG.'/home-bg.jpg';
+// Default cover image for posts.
+$coverImage = HTML_PATH_THEME_IMG.'/post-bg.jpg';
 
 // Check module DOM if installed.
 if(extension_loaded('dom'))
@@ -46,6 +46,10 @@ if(extension_loaded('dom'))
 
 <!-- Post Content -->
 <article>
+
+    <!-- Plugins Post Begin -->
+    <?php Theme::plugins('postBegin') ?>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -53,4 +57,8 @@ if(extension_loaded('dom'))
             </div>
         </div>
     </div>
+
+    <!-- Plugins Post End -->
+    <?php Theme::plugins('postEnd') ?>
+
 </article>

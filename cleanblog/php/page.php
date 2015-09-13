@@ -3,8 +3,8 @@
 // --- COVER IMAGE ------------------------------------------------------------
 // --- by Diego Najar for Bludit ----------------------------------------------
 
-// Default cover image.
-$coverImage = HTML_PATH_THEME_IMG.'/home-bg.jpg';
+// Default cover image for pages.
+$coverImage = HTML_PATH_THEME_IMG.'/page-bg.jpg';
 
 ?>
 
@@ -26,6 +26,10 @@ $coverImage = HTML_PATH_THEME_IMG.'/home-bg.jpg';
 
 <!-- Post Content -->
 <article>
+
+    <!-- Plugins Page Begin -->
+    <?php Theme::plugins('pageBegin') ?>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -33,4 +37,8 @@ $coverImage = HTML_PATH_THEME_IMG.'/home-bg.jpg';
             </div>
         </div>
     </div>
+
+    <!-- Plugins Page Begin -->
+    <?php Theme::plugins('pageEnd') ?>
+
 </article>
