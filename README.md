@@ -14,7 +14,7 @@ Push your Bludit themes here!
 ### Clean Blog
 Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
 - Author: Start Bootstrap
-- Version: 0.1
+- Version: 1.0
 - Website: http://startbootstrap.com/template-overviews/clean-blog/
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/cleanblog.zip?raw=true)
 
