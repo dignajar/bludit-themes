@@ -25,10 +25,17 @@ Eventually is design by HTML5 UP. Website http://html5up.net
 - Website: http://www.bludit.com
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/eventually.zip?raw=true)
 
+### Pure
+Pure is based on the framework Pure.css. Website: http://purecss.io
+- Author: Bludit
+- Version: 0.1
+- Website: http://www.bludit.com
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/pure.zip?raw=true)
+
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
 - Author: Afnizar Nur Ghifari
-- Version: 1.1
+- Version: 1.0
 - Website: https://dribbble.com/flamekaizar
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/saturn.zip?raw=true)
 
