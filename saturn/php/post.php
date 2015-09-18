@@ -22,9 +22,12 @@
 		    <div class="unit-100">
 		    	<strong><?php $Language->p('Tags') ?></strong>
 		    	<?php
-		    	foreach($Post->tags(true) as $tagName) {
-		    		echo '<a href="#">'.$tagName.'</a>';
+		    	$links = array();
+		    	$tags = $Post->tags(true);
+		    	foreach($tags as $tagKey=>$tagName) {
+		    		$links[] = '<a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 		    	}
+		    	echo implode(', ', $links);
 		    	?>
 		    </div>
 		</div>

@@ -26,8 +26,8 @@
 		    	<?php
 		    	$links = array();
 		    	$tags = $Post->tags(true);
-		    	foreach($tags as $tag) {
-		    		$links[] = '<a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tag.'">'.$tag.'</a>';
+		    	foreach($tags as $tagKey=>$tagName) {
+		    		$links[] = '<a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 		    	}
 		    	echo implode(', ', $links);
 		    	?>
