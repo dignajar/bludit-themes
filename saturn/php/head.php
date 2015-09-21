@@ -3,7 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo $Site->description() ?>">
 <meta name="author" content="Bludit - Theme design by Afnizar Nur Ghifari">
-<link rel="shortcut icon" href="img/favicon.png">
 
 <?php
 
@@ -34,6 +33,8 @@ Theme::css(array(
 	'http://fonts.googleapis.com/css?family=Lato:400,700',
 	'http://fonts.googleapis.com/css?family=Open+Sans:400,700'
 ), false);
+
+Theme::favicon();
 
 // Plugins Site Head
 Theme::plugins('siteHead');

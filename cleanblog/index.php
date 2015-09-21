@@ -2,7 +2,7 @@
 <html lang="<?php echo $Site->language() ?>">
 <head>
 <!-- Include Meta tags -->
-<?php include('php/head.php') ?>
+<?php include(PATH_THEME_PHP.'head.php') ?>
 </head>
 <body>
 
@@ -10,21 +10,21 @@
     <?php Theme::plugins('siteBodyBegin') ?>
 
     <!-- Include Navbar -->
-    <?php include('php/navbar.php') ?>
+    <?php include(PATH_THEME_PHP.'navbar.php') ?>
 
     <!-- Content -->
     <?php
         if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') )
         {
-            include('php/home.php');
+            include(PATH_THEME_PHP.'home.php');
         }
         elseif($Url->whereAmI()=='post')
         {
-            include('php/post.php');
+            include(PATH_THEME_PHP.'post.php');
         }
         elseif($Url->whereAmI()=='page')
         {
-            include('php/page.php');
+            include(PATH_THEME_PHP.'page.php');
         }
     ?>
 

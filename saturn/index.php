@@ -3,13 +3,13 @@
 <head>
 
 <!-- Meta tags -->
-<?php include('php/head.php') ?>
+<?php include(PATH_THEME_PHP.'head.php') ?>
 
 </head>
 <body>
 
-<!-- Plugins Site Body Begin -->
-<?php Theme::plugins('siteBodyBegin') ?>
+	<!-- Plugins Site Body Begin -->
+	<?php Theme::plugins('siteBodyBegin') ?>
 
 	<!-- Navigation -->
 	<div class="main-nav">
@@ -18,7 +18,9 @@
 				<nav class="navbar logo-w navbar-left" >
 					<a class="logo" href="<?php echo $Site->homeLink() ?>"><?php echo $Site->title() ?></a>
 				</nav>
-
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo"><?php echo $Site->title() ?></span>
+				</div>
 				<nav id="navbar-1" class="navbar item-nav navbar-right">
 				<ul>
 				<?php
@@ -53,33 +55,34 @@
 	        <?php
 	            if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') )
 	            {
-	                include('php/home.php');
+	                include(PATH_THEME_PHP.'home.php');
 	            }
 	            elseif($Url->whereAmI()=='post')
 	            {
-	                include('php/post.php');
+	                include(PATH_THEME_PHP.'post.php');
 	            }
 	            elseif($Url->whereAmI()=='page')
 	            {
-	                include('php/page.php');
+	                include(PATH_THEME_PHP.'page.php');
 	            }
 	        ?>
 		</div>
 	</div>
 
 	<footer>
-	<div class="container">
-	<p class="text-centered foot-cp"><?php echo $Site->footer() ?> | <a href="http://afnizar.com">handcrafted by @flamekaizar</a></p>
-	</div>
+		<div class="container">
+		<p class="text-centered foot-cp"><?php echo $Site->footer() ?> | <a href="http://afnizar.com">handcrafted by @flamekaizar</a></p>
+		</div>
 	</footer>
 
-<!-- Javascript -->
-<?php
-Theme::javascript(array(
-	'jquery.min.js',
-	'kube.min.js'
-));
-?>
+	<!-- Javascript -->
+	<?php
+		Theme::jquery();
+		Theme::javascript('kube.min.js');
+	?>
+
+	<!-- Plugins Site Body Begin -->
+	<?php Theme::plugins('siteBodyEnd') ?>
 
 </body>
 </html>

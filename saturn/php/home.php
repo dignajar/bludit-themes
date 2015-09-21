@@ -20,19 +20,21 @@
 	</div>
 
 	<div class="foot-post">
-		<div class="units-row">
-		    <div class="unit-100">
-		    	<strong><?php $Language->p('Tags') ?></strong>
-		    	<?php
-		    	$links = array();
-		    	$tags = $Post->tags(true);
-		    	foreach($tags as $tagKey=>$tagName) {
-		    		$links[] = '<a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
-		    	}
-		    	echo implode(', ', $links);
-		    	?>
-		    </div>
-		</div>
+	<div class="units-row">
+	<div class="unit-100">
+		<strong><?php $Language->p('Tags') ?></strong>
+		<?php
+			$links = array();
+			$tags = $Post->tags(true);
+
+			foreach($tags as $tagKey=>$tagName) {
+				$links[] = '<a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
+			}
+
+			echo implode(', ', $links);
+		?>
+	</div>
+	</div>
 	</div>
 
 	<!-- Plugins Post End -->
@@ -44,6 +46,4 @@
 <?php endforeach; ?>
 
 <!-- Paginator for posts -->
-<?php
-    echo Paginator::html();
-?>
+<?php echo Paginator::html() ?>
