@@ -14,7 +14,7 @@ Push your Bludit themes here!
 ### Clean Blog
 Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
 - Author: Start Bootstrap
-- Version: 1.0
+- Version: 1.1
 - Website: http://startbootstrap.com/template-overviews/clean-blog/
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/cleanblog.zip?raw=true)
 
@@ -35,7 +35,7 @@ Pure is based on the framework Pure.css. Website: http://purecss.io
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
 - Author: Afnizar Nur Ghifari
-- Version: 1.0
+- Version: 1.1
 - Website: https://dribbble.com/flamekaizar
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/saturn.zip?raw=true)
 
