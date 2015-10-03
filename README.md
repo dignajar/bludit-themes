@@ -26,10 +26,10 @@ Eventually is design by HTML5 UP. Website http://html5up.net
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/eventually.zip?raw=true)
 
 ### Pure
-Pure is based on the framework Pure.css. Website: http://purecss.io
+Simple and clean theme, based on the framework Pure.css. Website: http://purecss.io
 - Author: Bludit
-- Version: 0.1
-- Website: http://www.bludit.com
+- Version: 0.3
+- Website: https://github.com/dignajar/bludit-themes
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/pure.zip?raw=true)
 
 ### Saturn
