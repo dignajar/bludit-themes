@@ -11,6 +11,13 @@ Push your Bludit themes here!
 
 ## Theme list
 
+### Business Casual
+Simple and clean theme. http://freemiumdownload.com/downloads/business-casual-free-bootstrap-3-html-template/ 
+- Author: Hristo Dipchikov
+- Version: 0.1
+- Website: https://github.com/dignajar/bludit-themes
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Business-Casual.zip?raw=true)
+
 ### Clean Blog
 Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
 - Author: Start Bootstrap
