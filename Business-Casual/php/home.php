@@ -13,39 +13,40 @@
 
         <!-- Post title -->
         <h2 class="post-title">
-            <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a>
-        <br>
-
-        <!-- Post date and author -->
-        <small>
-            <hr><?php echo $Post->date() ?></span>
+            <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2><hr>
            
-                <?php
-                    echo $Language->get('Posted By').' ';
-
-                    if( Text::isNotEmpty($Post->authorFirstName()) && Text::isNotEmpty($Post->authorLastName()) ) {
-                        echo $Post->authorFirstName().', '.$Post->authorLastName();
-                    }
-                    else {
-                        echo $Post->username();
-                    }
-                ?>
-            <hr></small></h2>
         </div>
 
     </header>
 
     <!-- Post content -->
-   <div class="col-lg-12 text-right">
+   <div class="col-lg-12 ">
         <?php
             // Call the method with FALSE to get the first part of the post
             echo $Post->content(false)
         ?>
-    
+    </div>
+	
 
+<div class="col-lg-12 text-right">
     <?php if($Post->readMore()) { ?>
     <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
     <?php } ?>
+	<!-- Post date and author -->
+		     <h5><small>
+            <?php echo $Post->date() ?></span>
+           
+                <?php
+                    echo $Language->get('Posted By').' ';
+
+                    if( Text::isNotEmpty($Post->authorFirstName()) && Text::isNotEmpty($Post->authorLastName()) ) {
+                        echo $Post->authorFirstName().' '.$Post->authorLastName();
+                    }
+                    else {
+                        echo $Post->username();
+                    }
+                ?>
+            </small></h5>
 	</div>
 
     <!-- Plugins Post End -->
