@@ -32,10 +32,17 @@ Eventually is design by HTML5 UP. Website http://html5up.net
 - Website: http://www.bludit.com
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/eventually.zip?raw=true)
 
+### Future Imperfect
+Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
+- Author: n33co
+- Version: 1.0
+- Website: http://html5up.net
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/future-imperfect.zip?raw=true)
+
 ### Pure
-Simple and clean theme, based on the framework Pure.css. Website: http://purecss.io
+Simple and clean theme, based on the framework Pure.css.
 - Author: Bludit
-- Version: 0.3
+- Version: 0.6
 - Website: https://github.com/dignajar/bludit-themes
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/pure.zip?raw=true)
 
