@@ -22,24 +22,33 @@
 
     <!-- Post content -->
     <div class="col-lg-12 ">
-        <?php echo $Post->content() ?></div>
-		<br>
-		<h5><small>
-            <div class="col-lg-12 text-right">
-            <span class="date"><?php echo $Post->date() ?></span>
-            <span class="author">
-                <?php
-                    echo $Language->get('Posted By').' ';
+        <?php echo $Post->content() ?>
+		</div><br>
+		<!-- Post's tags -->
+	<div class="col-lg-12 text-left">
+	<h5><small>
+		<strong><?php $Language->p('Tags') ?></strong>
+		<?php
+			$tags = $Post->tags(true);
 
-                    if( Text::isNotEmpty($Post->authorFirstName()) && Text::isNotEmpty($Post->authorLastName()) ) {
-                        echo $Post->authorFirstName().' '.$Post->authorLastName();
-                    }
-                    else {
-                        echo $Post->username();
-                    }
-                ?>
+			foreach($tags as $tagKey=>$tagName) {
+				echo '&nbsp;|&nbsp <a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
+			}
+		?>
+		</small></h5></div>
+		<h6><small>
+            <div class="col-lg-12 text-right">
+		               <?php
+	                	$author = $Post->username();
+
+				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
+					$author = $Post->authorFirstName().' '.$Post->authorLastName();
+				}
+			?>
+			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
+			<a><?php echo $author ?></a>
 				
-             </small></h5>
+             </small></h6>
     </div>
 
     <!-- Plugins Post End -->
