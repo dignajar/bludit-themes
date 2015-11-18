@@ -64,7 +64,7 @@
     <!-- Plugins Post End -->
     <?php Theme::plugins('postEnd') ?>
 
-</div></div>
+</div>
 
 <?php endforeach; ?>
 
