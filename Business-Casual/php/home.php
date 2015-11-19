@@ -26,8 +26,14 @@
             echo $Post->content(false)
         ?>
     </div><br>
-	<!-- Post's tags -->
-	<div class="col-lg-12 text-left">
+
+
+<div class="col-lg-12 text-right">
+    <?php if($Post->readMore()) { ?>
+    <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
+    <?php } ?>
+		<!-- Post's tags -->
+	<div class="col-lg-12 text-center">
 	<h5><small>
 		<strong><?php $Language->p('Tags') ?></strong>
 		<?php
@@ -37,15 +43,9 @@
 				echo '&nbsp;|&nbsp <a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 			}
 		?>
-		</small></h5></div>
-
-<div class="col-lg-12 text-right">
-    <?php if($Post->readMore()) { ?>
-    <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
-    <?php } ?>
-	
+		</small></h5></li>
 	 <!-- Post date and author -->
-		     <h6><small>
+<h6><small>
             <?php
 	                	$author = $Post->username();
 
@@ -55,8 +55,8 @@
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<a><?php echo $author ?></a>
-		</div>
-            </small></h6>
+		</small></h6></div>
+            
 	</div>
 	   
 	
@@ -64,7 +64,7 @@
     <!-- Plugins Post End -->
     <?php Theme::plugins('postEnd') ?>
 
-</div>
+</div></div>
 
 <?php endforeach; ?>
 
