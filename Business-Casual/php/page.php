@@ -17,7 +17,7 @@
     </header>
 
     <!-- page content -->
-      <div class="col-lg-12 text-right">
+      <div class="col-lg-12 text-left">
         <?php echo $Page->content() ?>
     </div>
 
