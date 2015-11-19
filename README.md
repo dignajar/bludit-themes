@@ -14,7 +14,7 @@ Push your Bludit themes here!
 ### Business Casual
 Simple and clean theme. http://freemiumdownload.com/downloads/business-casual-free-bootstrap-3-html-template/ 
 - Author: Hristo Dipchikov
-- Version: 0.1
+- Version: 0.2
 - Website: https://github.com/dignajar/bludit-themes
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Business-Casual.zip?raw=true)
 
