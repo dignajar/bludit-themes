@@ -10,12 +10,7 @@
 	<hr>
 
 	<div class="in-content">
-        <?php echo $Post->content(false) ?>
-
-        <?php if($Post->readMore()) { ?>
-        <a class="read-more" href="<?php echo $Post->permalink() ?>"><?php $Language->p('Read more') ?></a>
-	<?php } ?>
-	</div>
+        <?php echo $Post->content() ?>
 
 	<div class="foot-post">
 		<div class="units-row">
