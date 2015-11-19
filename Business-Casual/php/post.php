@@ -25,7 +25,7 @@
         <?php echo $Post->content() ?>
 		</div><br>
 		<!-- Post's tags -->
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 text-center">
 	<h5><small>
 		<strong><?php $Language->p('Tags') ?></strong>
 		<?php
@@ -35,9 +35,9 @@
 				echo '&nbsp;|&nbsp <a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 			}
 		?>
-		</small></h5></div>
+		</small></h5>
 		<h6><small>
-            <div class="col-lg-12 text-right">
+            
 		               <?php
 	                	$author = $Post->username();
 
