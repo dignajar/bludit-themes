@@ -10,7 +10,7 @@
 <ul>
 <?php Theme::plugins('siteSidebar') ?>
 </ul>
-			</nav>
+</nav>
 <!-- Footer -->
 <ul id="copyright">
 	<p class="copyright"><?php echo $Site->footer() ?> <br> Design: <a href="http://html5up.net">HTML5 UP</a></p>

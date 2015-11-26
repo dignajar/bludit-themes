@@ -2369,15 +2369,17 @@
 
 			.pagination {
 				padding: 3em 0 0 0;
-				float:left
-			}
+				
+				}
 
 				.pagination .previous {
 					margin-right: 0.6em;
+					float:left
 				}
 
 				.pagination .next {
 					margin-left: 0.2em;
+					float:right
 				}
 
 				.pagination .pages a {
@@ -2391,6 +2393,44 @@
 					padding-top: 0;
 					padding-bottom: 0;
 					line-height: 2.75em;
+				}
+				
+					ul.actions.pagination .next {
+				text-decoration: none;
+				
+			}
+
+				ul.actions.pagination .next:after {
+					content: "";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.actions.pagination .next:after {
+					content: '\f054';
+				}
+
+			ul.actions.pagination .previous {
+				text-decoration: none;
+				
+			}
+
+				ul.actions.pagination .previous:before {
+					content: "";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.actions.pagination .previous:before {
+					content: '\f053';
 				}
 
 		/* Box */
@@ -2962,4 +3002,49 @@ article.post	footer	div.post-tags	a.tag {
 article.post	footer	div.post-tags	a.tag:hover {
 	opacity: 0.8;
 	text-decoration: none;
+}
+
+
+.pager {
+  padding-left: 0;
+  margin: 50px 0;
+  text-align: center;
+  list-style: none;
+}
+.pager li {
+  display: inline;
+}
+/*.pager li > a,
+.pager li > span {
+	display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}*/
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+  text-decoration: underline;
+  }
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+.pager .home > a,
+.pager .home > span {
+  float: right;
+}
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+ }
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
 }
