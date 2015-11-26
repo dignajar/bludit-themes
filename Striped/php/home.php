@@ -26,14 +26,13 @@
 </article>
 	<!-- Post's footer -->
 	<footer>
-	
-
-		<!-- Read more button -->
+			<!-- Read more button -->
+		<div align="right">
 	        <?php if($Post->readMore()) { ?>
 		<ul class="actions">
 			<li><a href="<?php echo $Post->permalink() ?>" class="button"><?php $Language->p('Read more') ?></a></li>
 		</ul>
-		<?php } ?>
+		<?php } ?></div>
 
 		<!-- Post's footer -->
 	  <div align="right">
@@ -62,11 +61,10 @@
 	<?php Theme::plugins('postEnd') ?>
 
 </article>
+
 <?php endforeach; ?>
 
-<!-- Pagination -->
 <!-- Paginator for posts -->
-<!-- Pagination -->
 <ul class="actions pagination">
 <?php
 	if( Paginator::get('showNewer') ) {
