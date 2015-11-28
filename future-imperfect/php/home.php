@@ -21,7 +21,7 @@
 				}
 			?>
 			<time class="published" datetime="2015-11-01"><?php echo $Post->date() ?></time>
-			<a href="#" class="author"><span class="name"><?php echo $author ?></span><img src="<?php echo $Post->profilePicture() ?>" alt=""></a>
+			<div class="author"><span class="name"><?php echo $author ?></span><img src="<?php echo $Post->profilePicture() ?>" alt=""></div>
 		</div>
 	</header>
 
