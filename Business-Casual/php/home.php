@@ -55,7 +55,7 @@
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<span  div class="name"><?php echo $author ?> </div></span>
-		</small></h6></div>
+		</small></h6>
             
 	</div>
 	   
