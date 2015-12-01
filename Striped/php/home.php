@@ -60,7 +60,7 @@
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<span  div class="name"><?php echo $author ?> </div></span>
-	</div>
+
 	
 	</footer>
 
