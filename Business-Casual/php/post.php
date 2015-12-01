@@ -21,7 +21,7 @@
     </header>
 
     <!-- Post content -->
-    <div class="col-lg-12 ">
+    <div class="col-lg-12  ">
         <?php echo $Post->content() ?>
 		</div><br>
 		<!-- Post's tags -->
@@ -45,8 +45,8 @@
 					$author = $Post->authorFirstName().' '.$Post->authorLastName();
 				}
 			?>
-			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
-			<a><?php echo $author ?></a>
+						<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
+			<span  div class="name"><?php echo $author ?> </div></span>
 				
              </small></h6>
     </div>

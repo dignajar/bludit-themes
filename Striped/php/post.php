@@ -45,8 +45,9 @@
 					$author = $Post->authorFirstName().' '.$Post->authorLastName();
 				}
 			?>
-			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
-			<a href="#" class="author"><span class="name"><?php echo $author ?></span></a>
+						<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
+			<span  div class="name"><?php echo $author ?> </div></span>
+	
 	</div>
 
 	<!-- Plugins Post End -->

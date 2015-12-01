@@ -20,7 +20,7 @@
     </header>
 
     <!-- Post content -->
-   <div class="col-lg-12 ">
+   <div class="col-lg-12">
         <?php
             // Call the method with FALSE to get the first part of the post
             echo $Post->content(false)
@@ -54,8 +54,8 @@
 				}
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
-			<a><?php echo $author ?></a>
-		</small></h6></div>
+			<span  div class="name"><?php echo $author ?> </div></span>
+		</small></h6>
             
 	</div>
 	   
@@ -75,4 +75,4 @@
     echo Paginator::html();
 ?>                    </ul>
                 </div>
-				
+		
