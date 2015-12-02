@@ -54,7 +54,7 @@ Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/future-imperfect.zip?raw=true)
 
 ### Pure
-Simple and clean theme, based on the framework Pure.css.
+Simple and clean, based on the framework Pure.css.
 - Author: Bludit
 - Version: 0.6
 - Website: https://github.com/dignajar/bludit-themes
