@@ -13,10 +13,9 @@
 
         <!-- Post title -->
         <h2 class="post-title">
-            <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2><hr>
-           
+            <hr> <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
+                   <h4><small><?php echo $Post->description() ?></small></h4><hr>
         </div>
-
     </header>
 
     <!-- Post content -->
@@ -54,7 +53,7 @@
 				}
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
-			<span  div class="name"><?php echo $author ?> </div></span>
+			<span div class="name"><?php echo $author ?> </div></span>
 		</small></h6>
             
 	</div>
@@ -69,10 +68,13 @@
 <?php endforeach; ?>
 
 <!-- Paginator for posts -->
+<div class="container">
  <div class="col-lg-12 text-center">
  <ul class="pager">
 <?php
     echo Paginator::html();
-?>                    </ul>
-                </div>
+?>                   
+</ul>
+</div>
+</div>
 		
