@@ -12,10 +12,9 @@
 
         <!-- Post title -->
         <h2 class="post-title">
-            <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a>
-       
-        <!-- Post date and author -->
-               </h2><hr>
+            <hr><a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
+                   <h4><small><?php echo $Post->description() ?></small></h4><hr>
+        </div>
         </div>
 
     </header>
