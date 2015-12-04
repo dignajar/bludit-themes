@@ -1,7 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="">
 <meta name="description" content="<?php echo $Site->description() ?>">
-
+<meta name="author" content="">
 <title><?php echo $Site->title() ?></title>
 
 <?php
@@ -37,8 +38,8 @@
 ?>
 
 <!-- Custom Fonts -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic,latin-ext" rel="stylesheet" type="text/css">
-
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 <!-- Pure and Google Fonts -->
 <style>
 	html, button, input, select, textarea,
