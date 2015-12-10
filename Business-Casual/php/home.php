@@ -13,27 +13,25 @@
 
         <!-- Post title -->
         <h2 class="post-title">
-            <hr> <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
+           <hr> <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
                    <h4><small><?php echo $Post->description() ?></small></h4><hr>
-        </div>
+				   </div>
+
     </header>
 
     <!-- Post content -->
    <div class="col-lg-12">
-        <?php
+           <?php
             // Call the method with FALSE to get the first part of the post
             echo $Post->content(false)
         ?>
-    </div><br>
+    </div>
 
-
-<div class="col-lg-12 text-right">
-    <?php if($Post->readMore()) { ?>
-    <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
-    <?php } ?>
-		<!-- Post's tags -->
-	<div class="col-lg-12 text-center">
-	<h5><small>
+<p>&nbsp;</p>
+	<div class="col-md-6 text-left">
+	<!-- Post tag -->
+  <h5>
+  <small>
 		<strong><?php $Language->p('Tags') ?></strong>
 		<?php
 			$tags = $Post->tags(true);
@@ -42,9 +40,11 @@
 				echo '&nbsp;|&nbsp <a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 			}
 		?>
-		</small></h5></li>
-	 <!-- Post date and author -->
-<h6><small>
+		</small>
+		</h5>
+			 <!-- Post date and author -->
+		<h6>
+		<small>
             <?php
 	                	$author = $Post->username();
 
@@ -53,13 +53,19 @@
 				}
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
-			<span div class="name"><?php echo $author ?> </div></span>
-		</small></h6>
-            
+			<span  class="name"><?php echo $author ?></span>
+		</small>
+		</h6>
+		</div>
+			<!-- Post read more -->
+  <div class="col-md-6 text-right">
+				    <?php if($Post->readMore()) { ?>
+    <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
+    <?php } ?>
 	</div>
-	   
 	
-
+	
+	
     <!-- Plugins Post End -->
     <?php Theme::plugins('postEnd') ?>
 
@@ -68,7 +74,8 @@
 <?php endforeach; ?>
 
 <!-- Paginator for posts -->
-<div class="container">
+
+ <div class="container">
  <div class="col-lg-12 text-center">
  <ul class="pager">
 <?php

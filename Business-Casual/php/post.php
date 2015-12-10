@@ -12,20 +12,21 @@
 
         <!-- Post title -->
         <h2 class="post-title">
-            <hr><a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
-                   <h4><small><?php echo $Post->description() ?></small></h4><hr>
+            <hr><a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a>
+       <h4><small><?php echo $Post->description() ?></small></h4><hr>  </h2>
         </div>
-        </div>
-
+			
     </header>
 
     <!-- Post content -->
     <div class="col-lg-12  ">
         <?php echo $Post->content() ?>
-		</div><br>
+		</div>
 		<!-- Post's tags -->
-	<div class="col-lg-12 text-center">
-	<h5><small>
+<p>&nbsp;</p>
+	<div class="col-md-6 text-left">
+  <h5>
+  <small>
 		<strong><?php $Language->p('Tags') ?></strong>
 		<?php
 			$tags = $Post->tags(true);
@@ -34,22 +35,23 @@
 				echo '&nbsp;|&nbsp <a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 			}
 		?>
-		</small></h5>
-		<h6><small>
-            
-		               <?php
+		</small>
+		</h5>
+			 <!-- Post date and author -->
+		<h6>
+		<small>
+            <?php
 	                	$author = $Post->username();
 
 				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
 					$author = $Post->authorFirstName().' '.$Post->authorLastName();
 				}
 			?>
-						<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
-			<span  div class="name"><?php echo $author ?> </div></span>
-				
-             </small></h6>
-    </div>
-
+			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
+			<span  class="name"><?php echo $author ?></span>
+		</small>
+		</h6>
+		</div>
     <!-- Plugins Post End -->
     <?php Theme::plugins('postEnd') ?>
 </div></div>
