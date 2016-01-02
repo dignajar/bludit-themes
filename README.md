@@ -32,6 +32,13 @@ Clean and very responsive theme by @n33co adapted by Hristo Dipchikov for Bludit
 - Website: http://html5up.net
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Striped.zip?raw=true)
 
+### Aqua
+Full page navigation with large fonts.
+- Author: Aquafortis
+- Version: 1.0
+- Website: https://github.com/Aquafortis
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/aqua.zip?raw=true)
+
 ### Clean Blog
 Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
 - Author: Start Bootstrap
