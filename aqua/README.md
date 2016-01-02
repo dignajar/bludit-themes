@@ -3,7 +3,7 @@
 
 **Use the 'Aqua Theme Colors' plugin to customize your theme colors.**
 
-The plugin can be downloaded from [Aquafortis on Github](https://github.com/Aquafortis)
+The plugin can be downloaded from [Aquafortis on Github](https://github.com/Aquafortis/aqua-theme-colors)
 
 To change the header image, just replace the header.jpg in the images folder with your own image using the same name.
 
