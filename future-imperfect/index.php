@@ -71,7 +71,7 @@ MIT license
 		<div id="main">
 
 			<?php
-			    if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') )
+			    if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') || ($Url->whereAmI()=='blog') )
 			    {
 			        include(PATH_THEME_PHP.'home.php');
 			    }

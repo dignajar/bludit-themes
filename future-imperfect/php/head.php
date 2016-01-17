@@ -15,4 +15,6 @@
 // Plugins for head
 Theme::plugins('siteHead');
 
+Theme::fontAwesome();
+
 ?>

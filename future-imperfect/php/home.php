@@ -13,15 +13,19 @@
 		</div>
 		<div class="meta">
 	                <?php
-	                	// Author
-	                	$author = $Post->username();
+	                	// Get the user who created the post.
+	                	$User = $Post->user();
 
-				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
-					$author = $Post->authorFirstName().' '.$Post->authorLastName();
+	                	// Default author is the username.
+	                	$author = $User->username();
+
+	                	// If the user complete the first name or last name this will be the author.
+				if( Text::isNotEmpty($User->firstName()) || Text::isNotEmpty($User->lastName()) ) {
+					$author = $User->firstName().' '.$User->lastName();
 				}
 			?>
 			<time class="published" datetime="2015-11-01"><?php echo $Post->date() ?></time>
-			<div class="author"><span class="name"><?php echo $author ?></span><img src="<?php echo $Post->profilePicture() ?>" alt=""></div>
+			<div class="author"><span class="name"><?php echo $author ?></span><img src="<?php echo $User->profilePicture() ?>" alt=""></div>
 		</div>
 	</header>
 
