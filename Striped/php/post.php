@@ -8,19 +8,19 @@
 	<header>
 					<h2><a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
 			<p><?php echo $Post->description() ?></p>
-		
+
 		<div class="info">
-	                
+
 					<?php
 	                	// Author
-	                	$author = $Post->username();
+    $author = $Post->user('username');
 
-				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
-					$author = $Post->authorFirstName().' '.$Post->authorLastName();
-				}
+    if( Text::isNotEmpty($Post->user('firstName')) || Text::isNotEmpty($Post->user('lastName')) ) {
+        $author = $Post->user('firstName').' '.$Post->user('lastName');
+    }
 			?>
 			<span class="date"><span class="month"><?php echo $Post->date() ?></span></span>
-		
+
 	</header>
 	</article>
 
@@ -39,15 +39,14 @@
 			}
 		?> &nbsp;|&nbsp
 		    <?php
-	                	$author = $Post->username();
+    $author = $Post->user('username');
 
-				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
-					$author = $Post->authorFirstName().' '.$Post->authorLastName();
-				}
-			?>
+    if( Text::isNotEmpty($Post->user('firstName')) || Text::isNotEmpty($Post->user('lastName')) ) {
+        $author = $Post->user('firstName').' '.$Post->user('lastName');
+    }			?>
 						<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<span  div class="name"><?php echo $author ?> </div></span>
-	
+
 	</div>
 
 	<!-- Plugins Post End -->

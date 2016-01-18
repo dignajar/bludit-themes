@@ -46,11 +46,14 @@
 		<h6>
 		<small>
             <?php
-	                	$author = $Post->username();
 
-				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
-					$author = $Post->authorFirstName().' '.$Post->authorLastName();
-				}
+	                    if( Text::isNotEmpty($Post->user('firstName')) || Text::isNotEmpty($Post->user('lastName')) ) {
+	                        $author = $Post->user('firstName').' '.$Post->user('lastName');
+	                    }
+	                    else {
+	                        $author = $Post->user('username');
+	                    }
+
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<span  class="name"><?php echo $author ?></span>
@@ -63,9 +66,9 @@
     <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
     <?php } ?>
 	</div>
-	
-	
-	
+
+
+
     <!-- Plugins Post End -->
     <?php Theme::plugins('postEnd') ?>
 
@@ -80,8 +83,7 @@
  <ul class="pager">
 <?php
     echo Paginator::html();
-?>                   
+?>
 </ul>
 </div>
 </div>
-		

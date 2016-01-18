@@ -2,11 +2,6 @@
 	"theme-data":
 	{
 		"name": "Monochromato",
-		"description": "Monochromato is a minimalistic, clean, content-driven theme for Bludit made with ❤, coffee and a healthy dose of SASS.",
-		"author": "hxii",
-		"email": "paul@paulglushak.com",
-		"website": "http://paulglushak.com",
-		"version": "0.1",
-		"releaseDate": "2015-11-20"
+		"description": "Monochromato is a minimalistic, clean, content-driven theme for Bludit made with ❤, coffee and a healthy dose of SASS."
 	}
 }

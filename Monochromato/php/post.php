@@ -5,7 +5,7 @@
       <h1><?php echo $Post->title() ?></h1>
     </header>
     <div class="post-meta">
-      <span class="post-author">By <strong><?php if( Text::isNotEmpty($Post->authorFirstName()) && Text::isNotEmpty($Post->authorLastName()) ) {echo $Post->authorFirstName().' '.$Post->authorLastName();}else {echo $Post->username();}?></strong></span>
+      <span class="post-author">By <strong><?php if( Text::isNotEmpty($Post->user('firstName')) && Text::isNotEmpty($Post->user('lastName')) ) {echo $Post->user('firstName').' '.$Post->user('lastName');}else {echo $Post->user('username');}?></strong></span>
       <span class="post-date">on <strong><?php echo $Post->date() ?></strong></span>
     </div>
   </section>

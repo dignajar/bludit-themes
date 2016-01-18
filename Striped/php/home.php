@@ -1,7 +1,7 @@
 <?php foreach ($posts as $Post): ?>
 
 <article class="post">
-				
+
 
 	<!-- Plugins Post Begin -->
 	<?php Theme::plugins('postBegin') ?>
@@ -12,26 +12,26 @@
 	<header>
 					<h2><a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
 			<p><?php echo $Post->description() ?></p>
-		
+
 		<div class="info">
-	               
+
 			<span class="date"><span class="month"><?php echo $Post->date() ?></span></span>
 				<!--<ul class="stats">
 									<a href="#" class="icon fa-google"></a>
 									<a href="#" class="icon fa-linkedin"></a>
 									<a href="#" class="icon fa-twitter"></a>
 									<a href="#" class="icon fa-facebook"></a>
-								</ul>	-->			
+								</ul>	-->
 		</div>
 	</header>
-	
+
 
 	<!-- Post's content, the first part if has pagebrake -->
 	<?php echo $Post->content(false) ?>
 </article>
 	<!-- Post's footer -->
 	<footer>
-	
+
 
 		<!-- Read more button -->
 		<div align="right">
@@ -52,16 +52,16 @@
 			}
 		?> &nbsp;|&nbsp
 		    <?php
-	                	$author = $Post->username();
+			    $author = $Post->user('username');
 
-				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
-					$author = $Post->authorFirstName().' '.$Post->authorLastName();
-				}
+			    if( Text::isNotEmpty($Post->user('firstName')) || Text::isNotEmpty($Post->user('lastName')) ) {
+			        $author = $Post->user('firstName').' '.$Post->user('lastName');
+			    }
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<span  div class="name"><?php echo $author ?> </div></span>
 
-	
+
 	</footer>
 
 	<!-- Plugins Post End -->
