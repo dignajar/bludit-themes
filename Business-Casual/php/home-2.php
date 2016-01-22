@@ -11,28 +11,31 @@
     <!-- Post header -->
     <header class="post-header">
 
-        <!-- Post title -->
-        <h2 class="post-title">
-           <hr> <a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
-                   <h4><small><?php echo $Post->description() ?></small></h4><hr>
-				   </div>
-
-    </header>
-<!-- Cover Image -->
-	<?php
+       <!-- Post title -->
+		<div class="col-md-6"><?php
 		if($Post->coverImage()) {
 			echo '<a href="'.$Post->permalink().'" class="image featured"><img src="'.$Post->coverImage().'" alt="Cover Image"></a>';
 		}
-	?>
+	?> 
+	</div>
+       <div class="col-md-6"> 
+	   <h2 class="post-title">
+		<a href="<?php echo $Post->permalink() ?>"><?php echo $Post->title() ?></a></h2>
+                   <h4><small><?php echo $Post->description() ?></small></h4>
+				   </div>
+	   
+				   
+				  
+</div>
+    </header>
+<!-- Cover Image -->
     <!-- Post content -->
-   <div class="col-lg-12">
+   <div class="col-lg-12 ">
            <?php
             // Call the method with FALSE to get the first part of the post
             echo $Post->content(false)
         ?>
-    </div>
-
-<p>&nbsp;</p>
+		
 	<div class="col-md-6 text-left">
 	<!-- Post tag -->
   <h5>
@@ -50,7 +53,7 @@
 			 <!-- Post date and author -->
 		<h6>
 		<small>
-            <?php
+	                <?php
 	                	// Get the user who created the post.
 	                	$User = $Post->user();
 
@@ -66,19 +69,17 @@
 			<span  class="name"><?php echo $author ?></span>
 		</small>
 		</h6>
-		</div>
+	</div>
 			<!-- Post read more -->
   <div class="col-md-6 text-right">
 				    <?php if($Post->readMore()) { ?>
     <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
     <?php } ?>
 	</div>
-	
-	
-	
+	</div>
     <!-- Plugins Post End -->
-    <?php Theme::plugins('postEnd') ?>
-
+  
+	  <?php Theme::plugins('postEnd') ?>
 </div></div>
 
 <?php endforeach; ?>
