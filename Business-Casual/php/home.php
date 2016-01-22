@@ -18,7 +18,12 @@
 				   </div>
 
     </header>
-
+<!-- Cover Image -->
+	<?php
+		if($Post->coverImage()) {
+			echo '<a href="'.$Post->permalink().'" class="image featured"><img src="'.$Post->coverImage().'" alt="Cover Image"></a>';
+		}
+	?>
     <!-- Post content -->
    <div class="col-lg-12">
            <?php
@@ -46,14 +51,16 @@
 		<h6>
 		<small>
             <?php
+	                	// Get the user who created the post.
+	                	$User = $Post->user();
 
-	                    if( Text::isNotEmpty($Post->user('firstName')) || Text::isNotEmpty($Post->user('lastName')) ) {
-	                        $author = $Post->user('firstName').' '.$Post->user('lastName');
-	                    }
-	                    else {
-	                        $author = $Post->user('username');
-	                    }
+	                	// Default author is the username.
+	                	$author = $User->username();
 
+	                	// If the user complete the first name or last name this will be the author.
+				if( Text::isNotEmpty($User->firstName()) || Text::isNotEmpty($User->lastName()) ) {
+					$author = $User->firstName().' '.$User->lastName();
+				}
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
 			<span  class="name"><?php echo $author ?></span>
@@ -66,9 +73,9 @@
     <a class="btn btn-default btn-lg" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
     <?php } ?>
 	</div>
-
-
-
+	
+	
+	
     <!-- Plugins Post End -->
     <?php Theme::plugins('postEnd') ?>
 
@@ -83,7 +90,8 @@
  <ul class="pager">
 <?php
     echo Paginator::html();
-?>
+?>                   
 </ul>
 </div>
 </div>
+		

@@ -17,7 +17,12 @@
         </div>
 			
     </header>
-
+<!-- Cover Image -->
+	<?php
+		if($Post->coverImage()) {
+			echo '<a href="'.$Post->permalink().'" class="image featured"><img src="'.$Post->coverImage().'" alt="Cover Image"></a>';
+		}
+	?>
     <!-- Post content -->
     <div class="col-lg-12  ">
         <?php echo $Post->content() ?>
@@ -41,10 +46,10 @@
 		<h6>
 		<small>
             <?php
-	                	$author = $Post->username();
-
-				if( Text::isNotEmpty($Post->authorFirstName()) || Text::isNotEmpty($Post->authorLastName()) ) {
-					$author = $Post->authorFirstName().' '.$Post->authorLastName();
+	                	$User = $Post->user();
+	                	$author = $User->username();
+				if( Text::isNotEmpty($User->firstName()) || Text::isNotEmpty($User->lastName()) ) {
+					$author = $User->firstName().' '.$User->lastName();
 				}
 			?>
 			<time><?php echo $Post->date() ?></time>&nbsp;|&nbsp
