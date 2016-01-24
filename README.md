@@ -19,7 +19,7 @@ Simple and clean theme. http://freemiumdownload.com/downloads/business-casual-fr
 - Release date: 2015-11-10
 - License: 
 - Requires: 
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Business-Casual.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/Business-Casual.zip?raw=true)
 
 ### Monochromato
 Monochromato is a minimalistic, clean, content-driven theme for Bludit made with ❤, coffee and a healthy dose of SASS.
@@ -29,7 +29,7 @@ Monochromato is a minimalistic, clean, content-driven theme for Bludit made with
 - Release date: 2015-11-20
 - License: 
 - Requires: 
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Monochromato.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/Monochromato.zip?raw=true)
 
 ### Striped
 Clean and very responsive theme by @n33co adapted by Hristo Dipchikov for Bludit.To better view change format Date to j M, Y
@@ -39,7 +39,7 @@ Clean and very responsive theme by @n33co adapted by Hristo Dipchikov for Bludit
 - Release date: 2015-11-01
 - License: CCA 3.0
 - Requires: Bludit v1.0
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/Striped.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/Striped.zip?raw=true)
 
 ### Aqua
 Full page navigation with large fonts.
@@ -49,7 +49,7 @@ Full page navigation with large fonts.
 - Release date: 2016-01-02
 - License: 
 - Requires: 
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/aqua.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/aqua.zip?raw=true)
 
 ### Blogme
 Minimalist and clean, with cover image supported, based on Future Imperfect.
@@ -59,7 +59,7 @@ Minimalist and clean, with cover image supported, based on Future Imperfect.
 - Release date: 2016-01-21
 - License: CCA 3.0
 - Requires: Bludit v1.0
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/blogme.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/blogme.zip?raw=true)
 
 ### Clean
 Clean is a minimal and multi-purpose HTML5 template that has features of a smooth and sleek animation upon scrolling, Fully responsive and a retina-ready template perfect for portfolio sites but you can tweak it to suit your needs.
@@ -69,7 +69,7 @@ Clean is a minimal and multi-purpose HTML5 template that has features of a smoot
 - Release date: 2016-01-15
 - License: 
 - Requires: Bludit v1.0
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/clean.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/clean.zip?raw=true)
 
 ### Clean Blog
 Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. Adapted by Diego Najar for Bludit.
@@ -79,7 +79,7 @@ Clean blog is a carefully styled Bootstrap blog theme that is perfect for person
 - Release date: 2015-09-21
 - License: 
 - Requires: 
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/cleanblog.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/cleanblog.zip?raw=true)
 
 ### Eventually
 Eventually is design by HTML5 UP. Website http://html5up.net
@@ -89,7 +89,7 @@ Eventually is design by HTML5 UP. Website http://html5up.net
 - Release date: 2015-11-01
 - License: CCA 3.0
 - Requires: Bludit v1.0
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/eventually.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/eventually.zip?raw=true)
 
 ### Future Imperfect
 Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
@@ -99,7 +99,7 @@ Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
 - Release date: 2015-11-01
 - License: CCA 3.0
 - Requires: Bludit v1.0
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/future-imperfect.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/future-imperfect.zip?raw=true)
 
 ### Pure
 Simple and clean, based on the framework Pure.css.
@@ -109,7 +109,7 @@ Simple and clean, based on the framework Pure.css.
 - Release date: 2016-01-15
 - License: MIT
 - Requires: Bludit v1.0
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/pure.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/pure.zip?raw=true)
 
 ### Saturn
 Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bludit.
@@ -119,7 +119,7 @@ Minimalist theme design by Afnizar Nur Ghifari and adapted by Diego Najar for Bl
 - Release date: 2015-09-21
 - License: 
 - Requires: 
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/saturn.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/saturn.zip?raw=true)
 
 ### Skeleton
 A dead simple, responsive boilerplate. Website: http://getskeleton.com
@@ -129,5 +129,5 @@ A dead simple, responsive boilerplate. Website: http://getskeleton.com
 - Release date: 2015-08-02
 - License: 
 - Requires: 
-- [Download now](https://github.com/dignajar/bludit-themes/blob/master/dist/skeleton.zip?raw=true)
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/skeleton.zip?raw=true)
 
