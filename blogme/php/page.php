@@ -1,13 +1,15 @@
+<a href="<?php echo $Site->url() ?>"><h1 class="blog-title"><?php echo $Site->title() ?></h1></a>
+
 <article class="post">
 
 	<!-- Plugins Page Begin -->
 	<?php Theme::plugins('pageBegin') ?>
 
-	<!-- Post's header -->
+	<!-- Page's header -->
 	<header>
 		<div class="title">
-			<h2><a href="<?php echo $Page->permalink() ?>"><?php echo $Page->title() ?></a></h2>
-			<p><?php echo $Page->description() ?></p>
+			<h1><a href="<?php echo $Page->permalink() ?>"><?php echo $Page->title() ?></a></h1>
+			<div class="info"><?php echo $Page->description() ?></div>
 		</div>
 	</header>
 
