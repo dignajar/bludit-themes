@@ -6,7 +6,7 @@
     <!-- Plugins Page Begin -->
     <?php Theme::plugins('pageBegin') ?>
 
-    <!-- page header -->
+    <!-- Page header -->
     <header class="page-header">
 
         <!-- page title -->
@@ -16,9 +16,17 @@
 
     </header>
 
-    <!-- page content -->
+	<!-- Cover Image -->
+	<?php
+		if($Page->coverImage()) {
+			echo '<a href="'.$Page->permalink().'" class="image featured"><img src="'.$Page->coverImage().'" alt="Cover Image"></a>';
+		}
+	?>
+    <!-- Page content -->
       <div class="col-lg-12 text-left">
+
         <?php echo $Page->content() ?>
+
     </div>
 
     <!-- Plugins Page Begin -->
