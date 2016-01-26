@@ -91,6 +91,16 @@ Eventually is design by HTML5 UP. Website http://html5up.net
 - Requires: Bludit v1.0
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/eventually.zip?raw=true)
 
+### Coffee
+This is my first theme for Bludit.
+- Author: Bludit
+- Version: 1.0
+- Website: 
+- Release date: 2016-01-15
+- License: MIT
+- Requires: Bludit v1.0
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/example-coffee.zip?raw=true)
+
 ### Future Imperfect
 Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
 - Author: n33co
