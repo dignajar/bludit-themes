@@ -101,6 +101,16 @@ This is my first theme for Bludit.
 - Requires: Bludit v1.0
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/example-coffee.zip?raw=true)
 
+### Mars
+This is my second theme for Bludit.
+- Author: Bludit
+- Version: 1.0
+- Website: https://github.com/dignajar/bludit-themes
+- Release date: 2016-01-15
+- License: MIT
+- Requires: Bludit v1.0
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/example-mars.zip?raw=true)
+
 ### Future Imperfect
 Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
 - Author: n33co
