@@ -121,6 +121,16 @@ Clean and very responsive theme by @n33co adapted by Diego Najar for Bludit.
 - Requires: Bludit v1.0
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/future-imperfect.zip?raw=true)
 
+### multiverse
+Based on the theme by HTML5 UP!
+- Author: n33co
+- Version: 1.0
+- Website: http://html5up.net
+- Release date: 2016-02-01
+- License: CCA 3.0
+- Requires: Bludit v1.0
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/multiverse.zip?raw=true)
+
 ### Pure
 Simple and clean, based on the framework Pure.css.
 - Author: Bludit
