@@ -81,6 +81,16 @@ Clean blog is a carefully styled Bootstrap blog theme that is perfect for person
 - Requires: 
 - [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/cleanblog.zip?raw=true)
 
+### Docs
+Docs is based on the framework Pure.css. Website: http://purecss.io
+- Author: Bludit
+- Version: 1.0
+- Website: https://github.com/dignajar/bludit-themes
+- Release date: 2016-01-15
+- License: MIT
+- Requires: Bludit v1.0
+- [Download now](https://github.com/dignajar/bludit-themes/blob/master/zip-files/docs.zip?raw=true)
+
 ### Eventually
 Eventually is design by HTML5 UP. Website http://html5up.net
 - Author: n33co
