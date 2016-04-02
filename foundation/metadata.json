@@ -1,0 +1,10 @@
+{
+	"author": "Zurb - Frédéric K.",
+	"email": "stradfred@gmail.com",
+	"website": "http://foundation.zurb.com",
+	"version":"6",
+	"releaseDate": "2016-04-02",
+	"license": "MIT",
+	"requires": "Bludit v1.1.2",
+	"notes": ""
+}
