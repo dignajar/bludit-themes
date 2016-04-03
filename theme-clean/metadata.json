@@ -1,0 +1,10 @@
+{
+	"author": "FREEHTML5.co",
+	"email": "stradfred@gmail.com",
+	"website": "http://freehtml5.co/",
+	"version":"1.0",
+	"releaseDate": "2016-04-02",
+	"license": "MIT",
+	"requires": "Bludit v1.1.2",
+	"notes": ""
+}
