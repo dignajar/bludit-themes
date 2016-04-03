@@ -1,10 +1,10 @@
 {
-	"author": "freehtml5",
-	"email": "",
-	"website": "http://freehtml5.co/clean-free-html5-bootstrap-template/",
-	"version": "1.0",
-	"releaseDate": "2016-01-15",
-	"license": "",
-	"requires": "Bludit v1.0",
+	"author": "FREEHTML5.co",
+	"email": "stradfred@gmail.com",
+	"website": "http://freehtml5.co/",
+	"version":"1.0",
+	"releaseDate": "2016-04-02",
+	"license": "MIT",
+	"requires": "Bludit v1.1.2",
 	"notes": ""
 }
