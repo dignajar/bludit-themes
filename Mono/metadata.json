@@ -1,0 +1,10 @@
+{
+  "author": "HoundSU",
+  "email": "alex@hound.su",
+  "website": "https://hound.su",
+  "version": "0.2",
+  "releaseDate": "24/04/2016",
+	"license": "",
+  "requires": "Bludit v1.0",
+  "notes": "Mono is a minimalistic, clean, content-driven theme for [Bludit]"
+}
