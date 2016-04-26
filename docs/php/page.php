@@ -20,7 +20,7 @@
         <?php echo $Page->content() ?>
     </div>
 
-    <!-- Plugins Page Begin -->
+    <!-- Plugins Page End -->
     <?php Theme::plugins('pageEnd') ?>
 
 </section>
