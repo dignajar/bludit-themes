@@ -24,8 +24,8 @@
 
 <?php
 	Theme::css(array(
-		'normalize.css',
-		'highlight.css',
+		'normalize.min.css',
+		'highlight.min.css',
 		'scss.php?p=main.scss'
 	));
   Theme::javascript(array(
