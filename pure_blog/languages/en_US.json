@@ -1,0 +1,12 @@
+{
+	"theme-data":
+	{
+		"name": "Pure blog",
+		"description": "Simple, responsive blog theme fully powered by purecss framework.",
+		"author": "Dave",
+		"email": "",
+		"website": "http://dav3.de/",
+		"version": "1.2",
+		"releaseDate": "2016-01-21"
+	}
+}
