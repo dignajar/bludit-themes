@@ -51,9 +51,7 @@
   Theme::javascript(array(
     'highlight.pack.js',
     'smooth-scroll.min.js',
-    'main.min.js'
   ));
-	Theme::favicon('favicon.png');
 	if( $Url->whereAmI()=='post' ) { Theme::keywords( $Post->tags() ); }
 	elseif( $Url->whereAmI()=='page' ) { Theme::keywords( $Page->tags() ); }
 ?>

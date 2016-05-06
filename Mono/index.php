@@ -29,8 +29,11 @@
 
 	?>
   <section class="site-footer">
-    <?php  echo $Site->footer()  ?> // <?php  echo $Language->get('Powered by')  ?> <a target="_blank" href="https://www.bludit.com">Bludit</a> // Made with <span class="love">♥</span> in 🇨🇦// </p>
+    <?php  echo $Site->footer()  ?> // <?php  echo $Language->get('Powered by')  ?> <a target="_blank" href="https://www.bludit.com">Bludit</a> // Made with <span class="love">♥</span> in 🇨🇦 // </p>
   </section>
+  <script>
+    smoothScroll.init();
+  </script>
 </div>
 <?php  Theme::plugins('siteBodyEnd')  ?>
 </body>

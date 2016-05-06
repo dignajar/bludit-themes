@@ -12,14 +12,6 @@
       </div>
     </section>
 
-    <!-- Post content -->
-    <!-- <div class="post-content">
-        <?php
-            // Call the method with FALSE to get the first part of the post
-            echo $Post->content(false)
-        ?>
-    </div> -->
-
     <?php if($Post->readMore()) { ?>
       <a class="read-more" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
     <?php } ?>
