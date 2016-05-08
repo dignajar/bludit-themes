@@ -1,14 +1,10 @@
 /* ===========================================================
-	MONOCHROMATO remake MONO for Bludit
+	MONO for Bludit
 ==============================================================
-	Base by hxii (http://paulglushak.com)
-	Github: https://github.com/hxii/Monochromato
-	Release Date: 24/04/2016
-	Version: v1.0
-  Remake by HoundSU (https://hound.su)
+  MONO by HoundSU (https://hound.su)
   Github: https://github.com/HoundSU/Mono
   Release Date: 2016/04/29
-	Version: v1.0
+	Version: v1.6
 ============================================================== */
 
 @import "config";
@@ -29,7 +25,7 @@ body {
     font-family: $main-font;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.5;
     color: $text-color;
 }
 .transition {
@@ -144,7 +140,7 @@ label[for="nav-button"] {
         width: 100%;
         th {} th, td {
             border: 1px solid $accent-color;
-            line-height: 1.6;
+            line-height: 1.5;
             padding: .5rem;
             text-align: center;
         }
@@ -184,6 +180,8 @@ h6 {
 }
 img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 pre,
 code,
