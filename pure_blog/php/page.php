@@ -1,4 +1,4 @@
-<h1 class="subhead"><?php echo isset($pages[$Page->parentKey()])?$pages[$Page->parentKey()]->title().' -> ':'' ?><?php echo $Page->title() ?></h1>
+<h1 class="content-subhead"><?php echo $Language->get('Page') ?></h1>
 
 <section class="page">
 
@@ -20,7 +20,7 @@
         <?php echo $Page->content() ?>
     </div>
 
-    <!-- Plugins Page End -->
+    <!-- Plugins Page Begin -->
     <?php Theme::plugins('pageEnd') ?>
 
 </section>
