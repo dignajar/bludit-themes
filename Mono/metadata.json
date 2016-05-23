@@ -2,9 +2,9 @@
   "author": "HoundSU",
   "email": "alex@hound.su",
   "website": "https://github.com/HoundSU/Mono",
-  "version": "1.0",
+  "version": "1.7",
   "releaseDate": "2016/04/29",
 	"license": "GNU",
-  "requires": "Bludit v1.6",
+  "requires": "Bludit v1.0",
   "notes": "Mono is a minimalistic, clean, content-driven theme for [Bludit]"
 }

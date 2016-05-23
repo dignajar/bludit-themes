@@ -2,11 +2,11 @@
 	"theme-data":
 	{
 		"name": "Mono",
-		"description": "Mono является минималистский, чистый, темой для [Bludit]",
+		"description": "Mono является минималистский, чистый, темой для Bludit",
 		"author": "Александр Сергеевич",
 		"email": "alex@hound.su",
 		"website": "https://hound.su",
-		"version": "1.6",
+		"version": "1.7",
 		"releaseDate": "2016/04/29"
 	}
 }

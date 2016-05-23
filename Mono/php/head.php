@@ -33,7 +33,7 @@
   MONO by HoundSU (https://hound.su)
   Github: https://github.com/HoundSU/Mono
   Release Date: 2016/04/29
-	Version: v1.6
+	Version: v1.7
 ============================================================== */
 
 ?>
@@ -63,7 +63,7 @@
 
 <!-- Custom Javascript -->
 <script
-			  src="https://code.jquery.com/jquery-2.2.3.min.js"
+			  src="//code.jquery.com/jquery-2.2.3.min.js"
 			  integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
 			  crossorigin="anonymous">
 </script>

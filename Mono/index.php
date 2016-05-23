@@ -16,6 +16,7 @@
   <section class="site-header">
     <?php  include(PATH_THEME_PHP.'sidebar.php')  ?>
   </section>
+
   <?php
 
 	if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') )    {
@@ -31,16 +32,18 @@
 	}
 
 	?>
+
 <!-- Site Footer -->
   <section class="site-footer">
-    <?php  echo $Site->footer()  ?> // <?php  echo $Language->get('Powered by')  ?> <a target="_blank" href="https://www.bludit.com">Bludit</a> // Made with <span class="love">♥</span> in 🇨🇦 // </p>
+  <div class="trenner"></div>
+  <?php  echo $Site->footer()  ?> // <?php  echo $Language->get('Powered by')  ?> <a target="_blank" href="https://www.bludit.com">Bludit</a> // Made with <span class="love">♥</span> in 🇨🇦 // </p>
   </section>
 
 <!-- Smooth Scroll -->
   <script>
     smoothScroll.init();
   </script>
-  
+
 </div>
 <?php  Theme::plugins('siteBodyEnd')  ?>
 </body>
