@@ -28,6 +28,12 @@ body {
     line-height: 1.5;
     color: $text-color;
 }
+::selection {
+  background: rgba(51, 153, 255, 0.7);
+}
+::-moz-selection {
+  background: rgba(51, 153, 255, 0.7);
+}
 .transition {
     transition: all .3s ease;
 }
@@ -156,6 +162,11 @@ label[for="nav-button"] {
         text-align: justify;
     }
 }
+.post-tags {
+  font-family: "Open Sans",sans-serif;
+  font-size: 1rem;
+  color: #3399ff;
+}
 .post-footer {
     padding: 1rem 0;
 }
@@ -225,6 +236,15 @@ blockquote {
         text-align: center;
     }
 }
+.trenner {
+    background-image: url("../img/trenner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    clear: both;
+    height: 60px;
+    margin-top: -15px;
+}
 .site-footer {
     padding-top: 0.2rem;
     text-transform: uppercase;
@@ -232,7 +252,6 @@ blockquote {
     font-size: .8rem;
     letter-spacing: .2rem;
     color: lighten($text-color, 50%);
-    border-top: 1px solid lighten($text-color, 50%);
 }
 @media screen and (max-width: 50rem) {
     body {
@@ -345,7 +364,7 @@ blockquote {
     }
     .site-footer {
         position: relative;
-        top: 6rem;
+        top: 4rem;
         padding: 3rem 0;
     }
 }

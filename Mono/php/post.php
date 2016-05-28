@@ -24,7 +24,7 @@
     <?php echo $Post->content() ?>
   </section>
   <section class="post-footer">
-    <span class="post-tags"><strong><strong><?php echo $Language->get('Tags') ?>:</strong> </strong><?php echo $Post->tags() ?></span>
+    <span class="post-tags"><?php echo $Language->get('Tags') ?>: <?php echo $Post->tags() ?></span>
   </section>
   <?php Theme::plugins('postEnd') ?>
 </article>
