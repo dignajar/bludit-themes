@@ -4,8 +4,8 @@
     <header class="post-title">
       <h1><?php echo $Post->title() ?></h1>
     </header>
-        <div class="post-meta">
-            <span class="date"><?php echo $Post->date() ?></span>
+        <div class="post-meta-post">
+            <span class="date"><strong><?php echo $Post->date() ?></strong></span>
             <span class="author">
                 <?php
                     echo $Language->get('Posted By').' ';

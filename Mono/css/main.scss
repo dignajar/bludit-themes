@@ -29,10 +29,10 @@ body {
     color: $text-color;
 }
 ::selection {
-  background: rgba(51, 153, 255, 0.7);
+  background: rgba(51, 153, 255, 0.2);
 }
 ::-moz-selection {
-  background: rgba(51, 153, 255, 0.7);
+  background: rgba(51, 153, 255, 0.2);
 }
 .transition {
     transition: all .3s ease;
@@ -121,7 +121,7 @@ label[for="nav-button"] {
         font-weight: 900;
         text-transform: uppercase;
         word-break: break-word;
-        text-align: right;
+        text-align: center;
     }
     .homepage-post-title h1 {
         margin: 0;
@@ -138,6 +138,15 @@ label[for="nav-button"] {
         font-size: .8rem;
         text-transform: uppercase;
         color: lighten($text-color, 30%);
+        padding-top: 10px;
+    }
+    .post-meta-post {
+        margin: 0 0 3rem 0;
+        font-size: .8rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: lighten($text-color, 30%);
+        padding-top: 10px;
     }
 }
 .post-content {
@@ -218,7 +227,7 @@ mark {
 }
 blockquote {
     margin: 0;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     border-left: 3px solid $text-color;
 }
 .button {
