@@ -30,8 +30,8 @@ Theme::css(array(
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
 */
 Theme::css(array(
-	'http://fonts.googleapis.com/css?family=Lato:400,700',
-	'http://fonts.googleapis.com/css?family=Open+Sans:400,700'
+	'https://fonts.googleapis.com/css?family=Lato:400,700',
+	'https://fonts.googleapis.com/css?family=Open+Sans:400,700'
 ), false);
 
 Theme::favicon();
