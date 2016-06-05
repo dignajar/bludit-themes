@@ -22,15 +22,16 @@
 				    <span class="logo"><?php echo $Site->title() ?></span>
 				</div>
 				<nav id="navbar-1" class="navbar item-nav navbar-right">
-				<ul>
-				<?php
-				echo '<li><a href="'.$Site->homeLink().'">'.$Language->get('Home').'</a></li>';
-				$parents = $pagesParents[NO_PARENT_CHAR];
-				foreach($parents as $Parent) {
-					echo '<li><a href="'.$Parent->permalink().'">'.$Parent->title().'</a></li>';
-				}
-				?>
-				</ul>
+	            <ul>
+		            <?php
+		            echo '<li><a href="'.$Site->homeLink().'">'.$Language->get('Home').'</a></li>';
+		            $parents = $pagesParents[NO_PARENT_CHAR];
+		            foreach($parents as $Parent) {
+		                if( $Parent->published() ) {
+		                echo '<li><a href="'.$Parent->permalink().'">'.$Parent->title().'</a></li>';
+		            }}
+		            ?>
+	            </ul>
 			</header>
 		</div>
 	</div>
@@ -71,7 +72,7 @@
 
 	<footer>
 		<div class="container">
-		<p class="text-centered foot-cp"><?php echo $Site->footer() ?> | <a href="http://afnizar.com">handcrafted by @flamekaizar</a></p>
+		<p class="text-centered foot-cp"><?php echo $Site->footer() ?> | <a href="https://twitter.com/flamekaizar">handcrafted by @flamekaizar</a></p>
 		</div>
 	</footer>
 
