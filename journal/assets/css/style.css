@@ -1,0 +1,152 @@
+/* Just above copyright footer */
+.divBeforeFooter{
+	background-image:url("../../img/pattern.png");
+}
+
+/* Images */
+img{
+	max-width: 100%;
+}
+
+/* Top Header */
+
+#intro{
+	text-align:center;
+	padding: 10px 0;
+	background-color: #249bb3;
+	color: #fff;
+}
+
+#intro a{
+	color: #fff;
+}
+
+/* Navigation bar Header */
+
+.links ul{
+	text-align:center;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+.links li {
+	display:inline-block;
+	text-transform: uppercase;
+}
+
+.links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    background-color: #111;
+}
+
+
+/* siteSidebar Hacks */
+
+.plugin{
+	display:inline-block;
+}
+
+.tagslist .plugin-pages{
+	display:none;
+}
+
+.pageslist .plugin-tags{
+	display:none;
+}
+
+.plugin-tags li{
+	text-transform: uppercase;
+	list-style-type: none;
+	font-size: small;
+}
+
+/* Footer */
+
+#footer{
+	text-align:center;
+	background-color: #F2F2F2;
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+.beforeFooter h2{
+	font-size: large;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Smooth horizontal line */
+
+.soft{
+	border: none; 
+	height: 3px; 
+	color: #F2F2F2; 
+	background: #F2F2F2;
+	margin-top: 30px;
+}
+
+/* Home.php? */
+
+.timestamp, .meta{
+	text-transform:uppercase;
+	font-size:small;
+	padding-bottom: 10px;
+}
+
+/* Pagination */ 
+
+.pagination {
+	list-style-type:none;
+	text-align:center;
+}
+
+.pagination li{
+	display:inline-block;
+}
+
+.previous{
+	
+}
+
+.next{
+	
+}
+
+/* posts.php page.php */
+.post{
+	padding: 30px;
+}
+
+.stats{
+	list-style-type:none;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.stats li{
+	display:inline-block;
+	padding-right: 10px;
+	font-size: small;
+}
+
+/* Syntax Highlighting */
+code, pre{
+	padding: 0 !important; 
+	margin: 0 !important;
+	color: black;
+}
