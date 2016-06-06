@@ -2,9 +2,9 @@
     "author": "Anaggh Sreenath",
     "email": "anagghscm@gmail.com",
     "website": "https://github.com/anaggh/journal",
-    "version": "1.0",
-    "releaseDate": "2016-06-05",
+    "version": "0.2",
+    "releaseDate": "2016-06-06",
     "license": "MIT",
-    "requires": "Bludit v1.3",
+    "compatible": "1.3",
     "notes": ""
 }

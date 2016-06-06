@@ -1,5 +1,5 @@
-/* Just above copyright footer */
-.divBeforeFooter{
+/* Just above copyright footer and Header Image*/
+.divBeforeFooter, #intro{
 	background-image:url("../../img/pattern.png");
 }
 
@@ -13,12 +13,12 @@ img{
 #intro{
 	text-align:center;
 	padding: 10px 0;
-	background-color: #249bb3;
-	color: #fff;
+	color: #000;
 }
 
 #intro a{
-	color: #fff;
+	color: #000;
+	font-weight: bold;
 }
 
 /* Navigation bar Header */
