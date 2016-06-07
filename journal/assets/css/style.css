@@ -58,40 +58,26 @@ img{
     background-color: #111;
 }
 
-/* siteSidebar Hacks */
+/* Footer */
 
-.plugin{
-	display:inline-block;
-}
-
-.tagslist .plugin-pages{
-	display:none;
-}
-
-.pageslist .plugin-tags{
-	display:none;
+.linksFooter h2{
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .plugin-tags li{
 	text-transform: uppercase;
 	list-style-type: none;
-	font-size: small;
+	font-size: 14px;
 }
-
-/* Footer */
 
 #footer{
 	text-align:center;
 	background-color: #F2F2F2;
 	font-size: 12px;
-	padding: 20px 0;
-}
-
-.beforeFooter h2{
-	font-size: large;
-	text-align:center;
-	font-weight: bold;
-	text-decoration: underline;
+	padding: 15px 0;
+	margin-top: 30px;
 }
 
 /* Home.php */

@@ -29,7 +29,7 @@
 				?>
 				
 				<!-- Extra TAGS shortcut in Navigation Menu -->
-				<li><a href="#goToTags">Tags</a></li>
+				<li><a href="#footer">Tags</a></li>
 				</ul>
 			</nav>
 		</header>
