@@ -5,7 +5,7 @@
 <?php include(THEME_DIR_PHP.'head.php') ?>
 </head>
 <body>
-	<div class="grid grid-fluid">
+	<div class="grid grid-fluid content">
 		<!-- Header -->
 		<header id="header">
 			<!-- Intro -->
@@ -34,7 +34,7 @@
 			</nav>
 		</header>
 
-		<div id="main" class="">
+		<div id="main" class="grid">
 			<?php
 			    if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') || ($Url->whereAmI()=='blog') )
 			    {
@@ -50,14 +50,14 @@
 			    }
 			?>
 		</div>
-	</div>
-	
-	<!-- footerSection -->
+			
+		<!-- footerSection -->
 		<section id="footerSection">
 			<?php include(THEME_DIR_PHP.'footer.php') ?>
 		</section>
+		
+	</div>
 	
-
 	<!-- Scripts! Add Javascript files here if needed. -->
 	
 	<!-- Plugins Site Body End -->

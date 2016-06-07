@@ -1,5 +1,4 @@
-<div class="grid grid-fluid divBeforeFooter">
-	<hr class="soft"> 
+<div class="grid grid-fluid linksFooter">
 	<!-- siteSidebar Hack since it returns both Taglist and Pagelist by default -->
 	<a id="goToTags"><a>
 

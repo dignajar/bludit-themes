@@ -61,10 +61,7 @@
 				echo '<li><a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a></li>';
 			}
 		?>
-		
-		<!-- A horizontal line after every post -->
-		<hr class="soft">
-		
+			
 		</ul>
 	</footer>
 
@@ -85,5 +82,5 @@
 	if( Paginator::get('showOlder') ) {
 		echo '<li><a href="'.Paginator::urlNextPage().'" class="btn-outline next">'.$Language->get('Next page').'</a></li>';
 	}
-?>
+?> 
 </ul>
