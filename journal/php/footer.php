@@ -1,10 +1,10 @@
-<div class="grid grid-fluid linksFooter">
+<div class="linksFooter">
 	<div class="grid">
 			<?php Theme::plugins('siteSidebar') ?>
 	</div>
 	
 	<!-- Final Footer -->
-	<div id="footer">
+	<div class="footer">
 		<?php echo $Site->footer() ?> | Powered by <a href="https://www.bludit.com/">BLUDIT</a> | Theme: <a href="https://github.com/anaggh/journal">Journal</a> |
 		
 		<!-- Social Media Links, Sitemap and RSS -->

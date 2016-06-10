@@ -1,11 +1,11 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 <!-- Include HTML meta tags -->
 <?php include(THEME_DIR_PHP.'head.php') ?>
 </head>
 <body>
-	<div class="grid grid-fluid content">
+	<div class="grid grid-fluid bodyLayout">
 		<!-- Header -->
 		<header id="header">
 			<!-- Intro -->
@@ -16,6 +16,7 @@
 				</header>
 			</section>
 			
+			<!-- Navigation -->
 			<nav class="links">
 				<ul>
 				<!-- Add Home Shortcut in Navigation Menu -->
@@ -28,13 +29,14 @@
 					}
 				?>
 				
-				<!-- Extra TAGS shortcut in Navigation Menu -->
+				<!-- Add Tags Shortcut in Navigation Menu -->
 				<li><a href="#footer">Tags</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<div id="main" class="grid">
+		<!-- Content -->
+		<div id="content" class="grid"> <!-- content id is currently unused -->
 			<?php
 			    if( ($Url->whereAmI()=='home') || ($Url->whereAmI()=='tag') || ($Url->whereAmI()=='blog') )
 			    {
@@ -51,8 +53,8 @@
 			?>
 		</div>
 			
-		<!-- footerSection -->
-		<section id="footerSection">
+		<!-- Footer  -->
+		<section id="footer">
 			<?php include(THEME_DIR_PHP.'footer.php') ?>
 		</section>
 		

@@ -3,9 +3,9 @@
 	background-image:url("../../img/pattern.png");
 }
 
-/* Content Background Color */
+/* Body Background Color */
 
-.content{
+.bodyLayout{
 	background-color: #F2F2F2;
 }
 
@@ -72,7 +72,7 @@ img{
 	font-size: 14px;
 }
 
-#footer{
+.footer{
 	text-align:center;
 	background-color: #F2F2F2;
 	font-size: 12px;
