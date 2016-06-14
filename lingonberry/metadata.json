@@ -1,0 +1,10 @@
+{
+	"author": "Anders Norén",
+	"email": "anders@andersnoren.se",
+	"website": "http://www.andersnoren.se/",
+	"version": "1.0",
+	"releaseDate": "2016-01-28",
+	"license": "GPL V2",
+	"requires": "Bludit v1.0",
+	"notes": ""
+}
