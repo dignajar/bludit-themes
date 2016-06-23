@@ -1,0 +1,134 @@
+/* Background Image for Header and Links Footer Section*/
+.linksFooter, #intro{
+	background-image:url("../../img/pattern.png");
+}
+
+/* Body Background Color */
+
+.bodyLayout{
+	background-color: #F2F2F2;
+}
+
+/* Images */
+img{
+	max-width: 100%;
+}
+
+/* Top Header */
+
+#intro{
+	text-align:center;
+	padding: 10px 0;
+	color: #000;
+}
+
+#intro a{
+	color: #000;
+	font-weight: bold;
+}
+
+/* Navigation bar Header */
+
+.links ul{
+	text-align:center;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.links li {
+	display:inline-block;
+	text-transform: uppercase;
+}
+
+.links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    background-color: #111;
+}
+
+/* Footer */
+
+.linksFooter h2{
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.plugin-tags li{
+	text-transform: uppercase;
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.footer{
+	text-align:center;
+	background-color: #F2F2F2;
+	font-size: 12px;
+	padding: 15px 0;
+	margin-top: 30px;
+}
+
+/* Home.php */
+
+.timestamp, .meta{
+	text-transform:uppercase;
+	font-size:small;
+	padding-bottom: 10px;
+}
+
+/* Pagination */ 
+
+.pagination {
+	list-style-type:none;
+	text-align:center;
+	padding:20px 0 30px 0;
+	margin: 0;
+}
+
+.pagination li{
+	display:inline-block;
+	text-transform:uppercase;
+}
+
+.previous, next{
+	
+}
+
+/* posts.php page.php */
+.post{
+	background-color:#fff;
+	padding: 30px;
+	margin: 30px 0;
+}
+
+.stats{
+	list-style-type:none;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.stats li{
+	display:inline-block;
+	padding-right: 10px;
+	font-size: small;
+}
+
+/* Syntax Highlighting */
+code, pre{
+	font-family: "Lucida Console", "Courier New", Terminal, monospace;
+	padding: 0 !important; 
+	margin: 0 !important;
+	color:#526475;
+}
