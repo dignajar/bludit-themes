@@ -11,29 +11,10 @@
 			<!-- Intro -->
 			<section id="intro">
 				<header>
-					<h1><a href="<?php echo $Site->url() ?>"><?php echo $Site->title() ?></a></h1>
-					<span><?php echo $Site->slogan() ?></span>
+					<h1><a href="<?php echo $Site->url() ?>"><?php echo $Site->title() ?></a> <span class="slogan"><?php echo $Site->slogan() ?></span>
+					<a href="#footer" class="btn-outline nav-link">Pages &amp; Tags</a></h1>
 				</header>
 			</section>
-			
-			<!-- Navigation -->
-			<nav class="links">
-				<ul>
-				<!-- Add Home Shortcut in Navigation Menu -->
-				<li><a href="<?php echo $Site->url() ?>">Home</a></li>
-				
-				<?php
-					$parents = $pagesParentsPublished[NO_PARENT_CHAR];
-					foreach($parents as $Parent) {
-						echo '<li><a href="'.$Parent->permalink().'">'.$Parent->title().'</a></li>';
-					}
-				?>
-				
-				<!-- Add Tags Shortcut in Navigation Menu -->
-				<li><a href="#footer">Tags</a></li>
-				</ul>
-			</nav>
-		</header>
 
 		<!-- Content -->
 		<div id="content" class="grid"> <!-- content id is currently unused -->
@@ -52,16 +33,16 @@
 			    }
 			?>
 		</div>
-			
+
 		<!-- Footer  -->
 		<section id="footer">
 			<?php include(THEME_DIR_PHP.'footer.php') ?>
 		</section>
-		
+
 	</div>
-	
+
 	<!-- Scripts! Add Javascript files here if needed. -->
-	
+
 	<!-- Plugins Site Body End -->
 	<?php Theme::plugins('siteBodyEnd') ?>
 
