@@ -4,8 +4,8 @@
     <header class="post-title">
       <h1><?php echo $Post->title() ?></h1>
     </header>
-        <div class="post-meta">
-            <span class="date"><?php echo $Post->date() ?></span>
+        <div class="post-meta-post">
+            <span class="date"><strong><?php echo $Post->date() ?></strong></span>
             <span class="author">
                 <?php
                     echo $Language->get('Posted By').' ';
@@ -19,12 +19,10 @@
                 ?>
             </span>
         </div>
+    <hr class="fancy">
   </section>
   <section class="post-content">
     <?php echo $Post->content() ?>
-  </section>
-  <section class="post-footer">
-    <span class="post-tags"><?php echo $Language->get('Tags') ?>: <?php echo $Post->tags() ?></span>
   </section>
   <?php Theme::plugins('postEnd') ?>
 </article>
