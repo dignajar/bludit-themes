@@ -33,18 +33,19 @@
 
 	?>
 
+</div>
+
 <!-- Site Footer -->
-  <section class="site-footer">
-  <div class="trenner"></div>
-  <p> <?php  echo $Site->footer()  ?> // <?php  echo $Language->get('Powered by')  ?> <a target="_blank" href="https://www.bludit.com">Bludit</a> // Made with <span class="love">♥</span> in 🇨🇦 // </p>
-  </section>
+  <div class="site-footer">
+    <div class="trenner"></div>
+    <p> <?php  echo $Site->footer()  ?> // <?php  echo $Language->get('Powered by')  ?> <a target="_blank" href="https://www.bludit.com">Bludit</a> // Made with <span class="love">♥</span> in 🇨🇦 // </p>
+  </div>
 
 <!-- Smooth Scroll -->
   <script>
     smoothScroll.init();
   </script>
 
-</div>
 <?php  Theme::plugins('siteBodyEnd')  ?>
 </body>
 </html>

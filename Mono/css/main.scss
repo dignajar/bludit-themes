@@ -4,11 +4,14 @@
   MONO by HoundSU (https://hound.su)
   Github: https://github.com/HoundSU/Mono
   Release Date: 2016/04/29
-	Version: v1.6
+	Version: v2.0
 ============================================================== */
 
 @import "config";
+
 /* =========================================================== */
+
+/* Main CSS */
 
 $text-color: #333;
 $header-color: #3399ff;
@@ -117,8 +120,9 @@ label[for="nav-button"] {
 .post-header {
     .post-title h1 {
         margin: 0;
-        font-size: 3.5rem;
+        font-size: 2rem;
         font-weight: 900;
+        letter-spacing: .2rem;
         text-transform: uppercase;
         word-break: break-word;
         text-align: center;
@@ -141,7 +145,6 @@ label[for="nav-button"] {
         padding-top: 10px;
     }
     .post-meta-post {
-        margin: 0 0 3rem 0;
         font-size: .8rem;
         text-align: center;
         text-transform: uppercase;
@@ -170,14 +173,6 @@ label[for="nav-button"] {
     p {
         text-align: justify;
     }
-}
-.post-tags {
-  font-family: "Open Sans",sans-serif;
-  font-size: 1rem;
-  color: #3399ff;
-}
-.post-footer {
-    padding: 1rem 0;
 }
 a {
     color: darken($text-color, 10%);
@@ -246,7 +241,7 @@ blockquote {
     }
 }
 .trenner {
-    background-image: url("../img/trenner.png");
+    background-image: url("../img/theme/trenner.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -255,6 +250,8 @@ blockquote {
     margin-top: -15px;
 }
 .site-footer {
+    max-width: $max-content-width;
+    margin: 0 auto;
     padding-top: 0.2rem;
     text-transform: uppercase;
     text-align: center;
@@ -377,6 +374,58 @@ blockquote {
         padding: 3rem 0;
     }
 }
+
+hr.fancy {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+hr.fancy:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #fff;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+/* Footer Love CSS */
+
+.love {
+    display: inline-block;
+    position: relative;
+    top: .2em;
+    font-size: 1.4em;
+    color: #e74c3c;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-animation: love .5s infinite linear alternate-reverse;
+    -moz-animation: love .5s infinite linear alternate-reverse;
+    animation: love .5s infinite linear alternate-reverse;
+}
+@-webkit-keyframes love {
+    to {
+        -webkit-transform: scale(1.2);
+    }
+}
+@-moz-keyframes love {
+    to {
+        -moz-transform: scale(1.2);
+    }
+}
+@keyframes love {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+/* FFolder CSS */
+
 .ffolder{
   position: relative;
   display: inline-block;
@@ -510,32 +559,3 @@ padding: 2px 8px;
 .ffolder.gray:after{ border-bottom-color: #687F8C;}
 .ffolder.gray span{background-color: transparent;}
 .ffolder.gray i{color: #687F8C;}
-
-.love {
-    display: inline-block;
-    position: relative;
-    top: .2em;
-    font-size: 1.4em;
-    color: #e74c3c;
-    -webkit-transform: scale(.9);
-    -moz-transform: scale(.9);
-    transform: scale(.9);
-    -webkit-animation: love .5s infinite linear alternate-reverse;
-    -moz-animation: love .5s infinite linear alternate-reverse;
-    animation: love .5s infinite linear alternate-reverse;
-}
-@-webkit-keyframes love {
-    to {
-        -webkit-transform: scale(1.2);
-    }
-}
-@-moz-keyframes love {
-    to {
-        -moz-transform: scale(1.2);
-    }
-}
-@keyframes love {
-    to {
-        transform: scale(1.2);
-    }
-}
