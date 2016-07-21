@@ -11,11 +11,6 @@
         <span class="post-date">on <strong><?php echo $Post->date() ?></strong></span>
       </div>
     </section>
-
-    <?php if($Post->readMore()) { ?>
-      <a class="read-more" href="<?php echo $Post->permalink() ?>"><?php $Language->printMe('Read more') ?></a>
-    <?php } ?>
-
     <?php Theme::plugins('postEnd') ?>
   </article>
 <?php endforeach; ?>
