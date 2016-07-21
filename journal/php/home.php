@@ -25,9 +25,9 @@
 					$author = $User->firstName().' '.$User->lastName();
 				}
 			?>
-			
+
 			<div class="timestamp"><span class="name">Post by <?php echo $author ?> on <time class="published" datetime="2015-11-01"><?php echo $Post->date() ?></time></span></div>
-			
+
 		</div>
 	</header>
 
@@ -56,13 +56,16 @@
 
 		<?php
 			$tags = $Post->tags(true);
-			
+
 			foreach($tags as $tagKey=>$tagName) {
 				echo '<li><a href="'.HTML_PATH_ROOT.$Url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a></li>';
 			}
 		?>
-			
+
 		</ul>
+
+		<!-- A horizontal rule after each post -->
+		<hr class="endPostHr">
 	</footer>
 
 	<!-- Plugins Post End -->
@@ -82,5 +85,5 @@
 	if( Paginator::get('showOlder') ) {
 		echo '<li><a href="'.Paginator::urlNextPage().'" class="btn-outline next">'.$Language->get('Next page').'</a></li>';
 	}
-?> 
+?>
 </ul>

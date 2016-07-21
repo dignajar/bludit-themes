@@ -21,7 +21,7 @@
 					$author = $User->firstName().' '.$User->lastName();
 				}
 			?>
-			
+
 			<div class="timestamp"><span class="name">Post by <?php echo $author ?> on <time class="published" datetime="2015-11-01"><?php echo $Post->date() ?></time></span></div>
 
 		</div>
