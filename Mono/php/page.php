@@ -4,6 +4,7 @@
     <section class="post-header">
       <header class="post-title">
         <h1><?php echo $Page->title() ?></h1>
+        <hr class="fancy">
       </header>
     </section>
     <section class="post-content">
