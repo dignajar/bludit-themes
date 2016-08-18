@@ -35,7 +35,7 @@
 		?>	
 		
 		<!-- Go Top! Link -->
-		<a href="#">Go Top!</a> |
+		<a data-scroll href="#">Go Top!</a> |
 		
 		<!-- Login Button -->
 		<?php 

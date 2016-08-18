@@ -14,7 +14,7 @@ img{
 #intro{
 	text-align: center;
 	padding: 0 10px;
-	background-color:#eee;
+	background-color:#F2F2F2;
 }
 
 #intro a{
@@ -27,13 +27,16 @@ img{
 	text-decoration: none;
 }
 
+.nav{
+	font-size: 2em;
+}
+
 .slogan{
 	font-size:medium;
 }
 
 .nav-link{
 	font-size: small;
-	color:white;
 }
 
 .nav-link:hover{
@@ -98,7 +101,7 @@ img{
 .post{
 	background-color:#fff;
 	padding: 0 20px;
-	margin:20px 0;
+	margin:40px 0;
 }
 
 .stats{
@@ -116,9 +119,18 @@ img{
 /* Syntax Highlighting */
 code, pre{
 	font-family: "Lucida Console", "Courier New", Terminal, monospace;
-	padding: 0 !important;
-	margin: 0 !important;
-	color:#526475;
+	background-color:rgb(240, 240, 240);
+}
+
+code {
+	border: 0;
+	margin: 0; 
+	color: #333;
+}
+
+pre code {
+	font-weight: normal !important;
+	overflow-x: auto;
 }
 
 /* End post horizontal rule - Glyph, by Harry Roberts*/

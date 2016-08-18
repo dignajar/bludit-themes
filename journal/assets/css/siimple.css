@@ -1,13 +1,16 @@
-/* This is a slightly modified version of siimple. All the "font-weight:300;" styles are removed and the default weight of 400 is used. */
+/* This is a slightly modified version of Siimple. All the "font-weight: 300;" styles are removed and 
+	the default weight of 400 is used in the @import url. 
+	Several other bugs are fixed by me(Anaggh). Validated from https://jigsaw.w3.org/css-validator/
+*/
 
 /**
  * siimple - Minimal CSS framework for flat and clean designs.
- * @version v1.3.5
+ * @version v1.3.6
  * @link https://siimple.juanes.xyz/
  * @license MIT
  */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
 .heart:after {
   content: "\2764";
   color: #f45660; }
@@ -18,7 +21,7 @@ body {
   padding: 0px;
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   background-color: #ffffff; }
 
 blockquote {
@@ -35,7 +38,7 @@ a {
   transition: all 0.3s; }
   a:hover {
     text-decoration: underline;
-    cursor: hand; }
+  }
 
 p {
   line-height: 28px;
@@ -55,7 +58,7 @@ small {
   font-size: 14px; }
 
 h1, h2, h3, h4, h5, h6 {
-
+  
   color: #526475;
   display: block;
   margin-bottom: 20px;
@@ -88,7 +91,7 @@ h6 {
 .alert {
   display: block;
   width: calc(100% - 30px);
-
+  
   font-size: 16px;
   text-align: left;
   padding-left: 14px;
@@ -122,16 +125,8 @@ h6 {
 .btn {
   font-family: 'Open Sans';
   font-size: 16px;
-
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   text-align: center;
   text-decoration: none !important;
-  text-cursor: pointer;
   line-height: 28px;
   margin-left: 5px;
   margin-right: 5px;
@@ -168,17 +163,9 @@ h6 {
     padding-right: 30px !important; }
   .btn-outline {
     font-family: 'Open Sans';
-    font-size: 16px;
-
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    font-size: 16px;   
     text-align: center;
     text-decoration: none !important;
-    text-cursor: pointer;
     line-height: 28px;
     margin-left: 5px;
     margin-right: 5px;
@@ -204,7 +191,7 @@ h6 {
 code {
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   border-radius: 5px;
   background-color: #f1f5fa;
   color: #09a0f6; }
@@ -216,7 +203,7 @@ code {
 pre {
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   display: block;
   width: calc(100% - 30px);
   padding: 14px;
@@ -231,10 +218,10 @@ pre {
 pre {
   overflow-x: auto; }
 
-.form-input[type="text"], .form-input[type="password"], .form-input[type="number"] {
+.form-input[type="text"], .form-input[type="password"], .form-input[type="number"], .form-input[type="email"] {
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   display: inline-block;
   width: 100%;
   transition: all 0.3s;
@@ -250,13 +237,13 @@ pre {
   box-sizing: border-box;
   line-height: 40px;
   height: 40px; }
-  .form-input[type="text"]:focus, .form-input[type="password"]:focus, .form-input[type="number"]:focus {
+  .form-input[type="text"]:focus, .form-input[type="password"]:focus, .form-input[type="number"]:focus, .form-input[type="email"]:focus {
     border: 1px solid #09a0f6; }
 
 .form-input[type="date"] {
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   display: inline-block;
   width: 100%;
   transition: all 0.3s;
@@ -277,8 +264,7 @@ pre {
 
 .form-input[disabled] {
   font-family: 'Open Sans';
-  font-size: 16px;
-
+  font-size: 16px;  
   display: inline-block;
   width: 100%;
   transition: all 0.3s;
@@ -293,7 +279,7 @@ pre {
   outline: 0px;
   box-sizing: border-box;
   cursor: not-allowed;
-  background-color: #d1e1e8;
+  background-color: #fff;
   height: 40px; }
   .form-input[disabled]:focus {
     border: 1px solid #09a0f6; }
@@ -301,16 +287,9 @@ pre {
 .form-input[type="submit"], .form-input[type="button"] {
   font-family: 'Open Sans';
   font-size: 16px;
-
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   text-align: center;
   text-decoration: none !important;
-  text-cursor: pointer;
+  
   line-height: 28px;
   margin-left: 5px;
   margin-right: 5px;
@@ -335,7 +314,7 @@ pre {
 .form-select {
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   display: inline-block;
   width: 100%;
   transition: all 0.3s;
@@ -358,7 +337,7 @@ pre {
 .form-textarea {
   font-family: 'Open Sans';
   font-size: 16px;
-
+  
   display: inline-block;
   width: 100%;
   transition: all 0.3s;
@@ -517,7 +496,7 @@ pre {
   width: 100%;
   border-width: 0px;
   border-collapse: collapse;
-
+  
   color: #526475;
   margin-top: 0px;
   margin-bottom: 20px; }
