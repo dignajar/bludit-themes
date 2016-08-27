@@ -6,7 +6,7 @@ The web site https://themes.bludit.com is generated from this Github repository 
 
 The zip files are created automatically.
 
-Here is a link to how to contribute to a any repository: https://varlogdiego.com/post/how-to-contribute-to-a-github-project
+Here is a link to how to contribute to a any repository: https://varlogdiego.com/github/how-to-contribute-to-a-github-project
 
 ## How to install a themes
 - Download the theme.
