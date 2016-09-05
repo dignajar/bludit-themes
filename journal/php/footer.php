@@ -5,7 +5,7 @@
 	
 	<!-- Final Footer -->
 	<div class="footer">
-		<?php echo $Site->footer() ?> | Powered by <a href="https://www.bludit.com/">BLUDIT</a> | Theme: <a href="https://github.com/anaggh/journal">Journal</a> |
+		<?php echo $Site->footer() ?> | Powered by <a href="https://www.bludit.com/">BLUDIT</a> |
 		
 		<!-- Social Media Links, Sitemap and RSS -->
 		<?php
