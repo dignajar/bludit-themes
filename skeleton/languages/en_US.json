@@ -2,11 +2,6 @@
 	"theme-data":
 	{
 		"name": "Skeleton",
-		"description": "A dead simple, responsive boilerplate. Website: http://getskeleton.com",
-		"author": "Bludit",
-		"email": "",
-		"website": "http://www.bludit.com",
-		"version": "0.1",
-		"releaseDate": "2015-08-02"
+		"description": "A dead simple, responsive boilerplate. Website: http://getskeleton.com"
 	}
 }

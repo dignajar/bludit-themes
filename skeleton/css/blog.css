@@ -11,6 +11,10 @@ Primary Element Customization
 	color: #999;
 	text-align: center;
 }
+
+img {
+	max-width: 100%;
+}
 /* ------------------------
 Paginator
 ------------------------ */
@@ -112,7 +116,7 @@ Pages and Posts
 	display: block;
 	/*    text-align: center;
 */
-	
+
 	padding-top: 2px;
 }
 
@@ -184,7 +188,7 @@ nav ul ul {
 	position: absolute;
 	margin-left: -0.5rem;
 	/*deduct the right padding for nav ul li*/
-	
+
 	margin-top: 0.5rem;
 	/*add the bottom padding for nav ul li*/
 }

@@ -60,7 +60,7 @@ if( extension_loaded('dom') && isset($posts[0]) )
                         <h2 class="post-title"><?php echo $Post->title() ?></h2>
                         <h3 class="post-subtitle"><?php echo $Post->description() ?></h3>
                     </a>
-                    <p class="post-meta"><?php echo $Language->g('Posted By').' '.$Post->username().' '.$Post->date() ?></p>
+                    <p class="post-meta"><?php echo $Language->g('Posted By').' '.$Post->user('username').' '.$Post->date() ?></p>
                 </div>
 
                 <!-- Plugins Post End -->

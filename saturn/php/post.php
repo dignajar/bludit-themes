@@ -8,14 +8,14 @@
 	<a href="<?php echo $Post->permalink() ?>"><h1><?php echo $Post->title() ?></h1></a>
 
 	<hr>
-
+	<!-- Cover Image -->
+	<?php
+		if($Post->coverImage()) {
+			echo '<a href="'.$Post->permalink().'" class="featured-image"><img src="'.$Post->coverImage().'" alt="Cover Image"></a>';
+		}
+	?>
 	<div class="in-content">
-        <?php echo $Post->content(false) ?>
-
-        <?php if($Post->readMore()) { ?>
-        <a class="read-more" href="<?php echo $Post->permalink() ?>"><?php $Language->p('Read more') ?></a>
-	<?php } ?>
-	</div>
+        <?php echo $Post->content() ?>
 
 	<div class="foot-post">
 		<div class="units-row">

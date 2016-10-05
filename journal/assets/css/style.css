@@ -1,0 +1,152 @@
+/* Body Background Color - Change to #000 to troubleshoot*/
+
+.bodyLayout{
+	background-color: #fff;
+}
+
+/* Images */
+img{
+	max-width: 100%;
+}
+
+/* Top Header */
+
+#intro{
+	text-align: center;
+	padding: 0 10px;
+	background-color:#F2F2F2;
+}
+
+#intro a{
+	color: #000;
+	font-weight: bold;
+}
+
+#intro a:hover{
+	color:#09a0f6;
+	text-decoration: none;
+}
+
+.nav{
+	font-size: 2em;
+}
+
+.slogan{
+	font-size:medium;
+}
+
+.nav-link{
+	font-size: small;
+}
+
+.nav-link:hover{
+	color:black !important;
+}
+
+/* Background Image Links Footer Section*/
+
+.linksFooter{
+	background-image:url("../../img/pattern.png");
+}
+
+/* Footer */
+
+.linksFooter h2{
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.plugin-tags li{
+	text-transform: uppercase;
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.footer{
+	text-align:center;
+	background-color: #F2F2F2;
+	font-size: 12px;
+	padding: 15px 0;
+	margin-top: 30px;
+}
+
+/* Home.php */
+
+.timestamp, .meta{
+	text-transform:uppercase;
+	font-size:small;
+	padding-bottom: 10px;
+}
+
+/* Pagination */
+
+.pagination {
+	list-style-type:none;
+	text-align:center;
+	padding-bottom:20px;
+	margin: 0;
+}
+
+.pagination li{
+	display:inline-block;
+	text-transform:uppercase;
+}
+
+.previous, next{
+
+}
+
+/* posts.php page.php */
+.post{
+	background-color:#fff;
+	padding: 0 20px;
+	margin:40px 0;
+}
+
+.stats{
+	list-style-type:none;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.stats li{
+	display:inline-block;
+	padding-right: 10px;
+	font-size: small;
+}
+
+/* Syntax Highlighting */
+code, pre{
+	font-family: "Lucida Console", "Courier New", Terminal, monospace;
+	background-color:rgb(240, 240, 240);
+}
+
+code {
+	border: 0;
+	margin: 0; 
+	color: #333;
+}
+
+pre code {
+	font-weight: normal !important;
+	overflow-x: auto;
+}
+
+/* End post horizontal rule - Glyph, by Harry Roberts*/
+.endPostHr {
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333; text-align: center;
+}
+
+.endPostHr:after {
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+}
