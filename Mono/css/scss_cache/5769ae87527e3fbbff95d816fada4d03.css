@@ -1,0 +1,360 @@
+/* compiled by scssphp v0.0.12 on Tue, 04 Oct 2016 21:21:12 -0300 (0.1147s) */
+
+/* ===========================================================
+	MONO for Bludit
+==============================================================
+  MONO by HoundSU (https://hound.su)
+  Github: https://github.com/HoundSU/Mono
+  Release Date: 2016/04/29
+	Version: v2.0
+============================================================== */
+/* =========================================================== */
+/* Main CSS */
+/* Use the following lines to configure your font, main (accent) color and the maximum width. */
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box; }
+
+body {
+  padding: 5rem;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333; }
+
+::selection {
+  background: rgba(51, 153, 255, 0.2); }
+
+::-moz-selection {
+  background: rgba(51, 153, 255, 0.2); }
+
+.transition, .site-header nav ul.children, a {
+  transition: all 0.3s ease; }
+
+.nav-button {
+  display: none; }
+
+label[for="nav-button"] {
+  display: none;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  float: right; }
+
+.wrapper {
+  max-width: 55rem;
+  margin: 0 auto;
+  font-size: 1.25rem; }
+
+.site-header {
+  margin: 0 0 5rem 0; }
+  .site-header .logo {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; }
+    .site-header .logo h1 {
+      font-size: 1.25rem;
+      margin: 0;
+      padding: 0; }
+  .site-header nav {
+    display: inline-block;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .site-header nav ul {
+      margin: 0;
+      list-style-type: none; }
+      .site-header nav ul.children {
+        display: none;
+        position: absolute;
+        top: auto;
+        margin: 0;
+        padding: 0.25rem 0.5rem;
+        opacity: 0;
+        background: white; }
+      .site-header nav ul li {
+        display: inline-block;
+        margin-left: 1rem; }
+        .site-header nav ul li:first-child {
+          margin: 0; }
+        .site-header nav ul li:hover > ul {
+          display: block;
+          opacity: 1; }
+        .site-header nav ul li.child {
+          display: block;
+          margin: 0; }
+        .site-header nav ul li a {
+          border: none; }
+          .site-header nav ul li a:hover {
+            color: #39f; }
+          .site-header nav ul li a.parent {
+            position: relative; }
+  .site-header h2 {
+    display: none; }
+
+.post-header .post-title h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  word-break: break-word;
+  text-align: center; }
+  .post-header .homepage-post-title h1 {
+    margin: 0;
+    font-size: 2rem; }
+    .post-header .homepage-post-title h1 a {
+      border: none; }
+      .post-header .homepage-post-title h1 a:hover {
+        color: #39f; }
+  .post-header .post-meta {
+    margin: 0 0 3rem 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #808080;
+    padding-top: 10px; }
+  .post-header .post-meta-post {
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #808080;
+    padding-top: 10px; }
+
+.post-content table {
+  border-collapse: collapse;
+  width: 100%; }
+  .post-content table th, .post-content table td {
+    border: 1px solid #39f;
+    line-height: 1.5;
+    padding: 0.5rem;
+    text-align: center; }
+  .post-content dfn, .post-content dt {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 0.9rem; }
+  .post-content p {
+    text-align: justify; }
+
+a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 3px solid #b3b3b3; }
+  a:hover {
+    border-color: #39f; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  color: #39f;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+pre, code, samp {
+  background: white;
+  font-family: 'Source Code Pro', Consolas, monospace;
+  font-size: 1rem; }
+
+pre {
+  padding: 1rem;
+  word-break: break-word; }
+
+kbd {
+  background: #fff;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #808080, 0 4px 0 #808080;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+  padding: 0 0.3rem; }
+
+mark {
+  background: rgba(51, 153, 255, .15); }
+
+blockquote {
+  margin: 0;
+  padding-left: 1.5rem;
+  border-left: 3px solid #333; }
+
+.button {
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  background: #39f;
+  color: #fff; }
+  .button:hover {
+    background: rgba(51, 153, 255, .85);
+    color: #fff; }
+  .button .full-width {
+    display: block;
+    text-align: center; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  opacity: 0.5; }
+
+.site-footer {
+  max-width: 55rem;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: #b3b3b3; }
+
+@media screen and (max-width: 50rem) {
+  body {
+    padding: 0rem; }
+
+  .nav-button:checked + label {
+    color: #39f; }
+    .nav-button:checked ~ .post {
+      right: 10rem; }
+    .nav-button:checked ~ .site-header nav {
+      right: 0; }
+
+  label[for="nav-button"] {
+    z-index: 10;
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem; }
+
+  .site-header {
+    padding: 1rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9; }
+    .site-header nav {
+      transition: all 0.35s ease;
+      position: absolute;
+      right: -100%;
+      top: 4rem;
+      display: block;
+      padding: 1rem 2rem;
+      width: 10rem;
+      height: 100vh;
+      background: white;
+      font-size: 1.5rem;
+      z-index: 1; }
+      .site-header nav ul {
+        padding: 0;
+        margin: 0; }
+        .site-header nav ul.children {
+          display: block;
+          opacity: 1;
+          padding: 0;
+          word-break: break-word; }
+          .site-header nav ul.children li {
+            border-left: 3px solid #333;
+            padding: 0 0 0 0.5rem; }
+            .site-header nav ul.children li:hover {
+              border-color: #39f; }
+        .site-header nav ul li {
+          margin: 0;
+          display: block;
+          text-align: justify; }
+
+  .post-content table thead tr {
+    position: absolute;
+    top: -9999em;
+    left: -9999em; }
+    .post-content table tr {
+      border-bottom: none; }
+      .post-content table tr + tr {
+        margin-top: 1.5em; }
+    .post-content table tr, .post-content table td {
+      display: block; }
+    .post-content table td {
+      /*padding-left: 50%;*/
+      border: 3px solid #39f; }
+      .post-content table td + td {
+        border-top: 0; }
+      .post-content table td:before {
+        content: attr(data-label);
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-left: -100%;
+        width: 100%; }
+
+  .post {
+    transition: all 0.2s ease;
+    z-index: 0;
+    padding: 0 1rem;
+    position: relative;
+    top: 6rem;
+    right: 0; }
+
+  .site-footer {
+    position: relative;
+    top: 4rem;
+    padding: 3rem 0; } }
+
+hr.fancy {
+  border-top: 1px solid #8c8b8b;
+  text-align: center; }
+
+hr.fancy:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #fff;
+  color: #8c8b8b;
+  font-size: 18px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg); }
+
+.videoWrapper {
+  position: relative;
+  /* 16:9 */
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Footer Love CSS */ }
+
+.love {
+  display: inline-block;
+  position: relative;
+  top: 0.2em;
+  font-size: 1.4em;
+  color: #e74c3c;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: love 0.5s infinite linear alternate-reverse;
+  -moz-animation: love 0.5s infinite linear alternate-reverse;
+  animation: love 0.5s infinite linear alternate-reverse; }
+
+@-webkit-keyframes love {
+  to {
+    -webkit-transform: scale(1.2); } }
+
+@-moz-keyframes love {
+  to {
+    -moz-transform: scale(1.2); } }
+
+@keyframes love {
+  to {
+    transform: scale(1.2); } }

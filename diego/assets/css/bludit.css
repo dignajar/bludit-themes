@@ -184,3 +184,7 @@ blockquote p {
 .plugin-tags li {
 	text-transform: capitalize;
 }
+
+img {
+	max-width: 100%;
+}
