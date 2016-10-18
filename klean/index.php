@@ -21,6 +21,7 @@
 	-->
 	<div class="navbar-header">
 		<a class="navbar-brand" href="<?php echo $Site->url() ?>"><?php echo $Site->title() ?></a>
+
 	</div>
 
 	<!-- Links

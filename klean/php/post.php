@@ -45,16 +45,16 @@
 			-->
 			<?php
 				if( Text::isNotEmpty( $User->twitter()) )
-					echo '<div class="social"><i class="icon-twitter"></i> <a href="'.$User->twitter().'">Twitter</a></div>';
+					echo '<div class="social"><a href="'.$User->twitter().'">Twitter</a></div>';
 
 				if( Text::isNotEmpty( $User->facebook()) )
-					echo '<div class="social"><i class="icon-facebook"></i> <a href="'.$User->facebook().'">Facebook</a></div>';
+					echo '<div class="social"><a href="'.$User->facebook().'">Facebook</a></div>';
 
 				if( Text::isNotEmpty( $User->googleplus()) )
-					echo '<div class="social"><i class="icon-google"></i> <a href="'.$User->googleplus().'">Google+</a></div>';
+					echo '<div class="social"><a href="'.$User->googleplus().'">Google+</a></div>';
 
 				if( Text::isNotEmpty( $User->instagram()) )
-					echo '<div class="social"><i class="icon-instagram"></i> <a href="'.$User->instagram().'">Instagram</a></div>';
+					echo '<div class="social"><a href="'.$User->instagram().'">Instagram</a></div>';
 			?>
 		</div>
 	</div>
