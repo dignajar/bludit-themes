@@ -11,12 +11,6 @@
 		'app.css'
 	));
 
-	// Javascript files
-	Theme::javascript(array(
-		'foundation.min.js',
-		'app.js'
-	));
-
 	// Favicon
 	Theme::favicon('favicon.png');
 
