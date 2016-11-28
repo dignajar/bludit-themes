@@ -13,6 +13,6 @@ The original version of the theme was contributed by Frédéric K.
 Versions
 --------
 
-6.2.4, November 29, 2016
+6.2.4, November 28, 2016
 - Update to Foundation 6.2.4.
 - Minor fixes.
