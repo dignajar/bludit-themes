@@ -7,7 +7,7 @@
 
 	// CSS files
 	Theme::css(array(
-		'foundation.min.css',
+		'foundation.css',
 		'app.css'
 	));
 

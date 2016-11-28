@@ -143,9 +143,8 @@
 	
 	<!-- Scripts -->
 	<?php Theme::jquery() ?>
-	<script src="<?php echo HTML_PATH_THEME ?>js/vendor/jquery.min.js"></script>
-	<script src="<?php echo HTML_PATH_THEME ?>js/vendor/what-input.min.js"></script>
-	<script src="<?php echo HTML_PATH_THEME ?>js/foundation.min.js"></script>
+	<script src="<?php echo HTML_PATH_THEME ?>js/vendor/what-input.js"></script>
+	<script src="<?php echo HTML_PATH_THEME ?>js/vendor/foundation.js"></script>
 	<script src="<?php echo HTML_PATH_THEME ?>js/app.js"></script>
 	<!-- Plugins Site Body End -->
 	<?php Theme::plugins('siteBodyEnd') ?>	
