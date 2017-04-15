@@ -44,7 +44,7 @@
 			    	<img class="img-intro" src="<?php echo HTML_PATH_THEME.'img/avatar.png' ?>" alt="">
 			    </div>
 			    <div class="unit-90">
-			    	<p class="p-intro"><?php echo ( Text::isNotEmpty($Site->description()) ) ? $Site->description() : 'Welcome to the machine'; ?></p>
+			    	<p class="p-intro"><?php echo ( Text::isNotEmpty($Site->slogan()) ) ? $Site->slogan() : 'Welcome to the machine'; ?></p>
 			    </div>
 			</div>
 		</div>
