@@ -1,26 +1,33 @@
 <h1 class="subhead"><?php echo $Language->get('Page') ?></h1>
 
-<section class="page">
+<article class="page">
 
-    <!-- Plugins Page Begin -->
-    <?php Theme::plugins('pageBegin') ?>
+  <!-- Plugins Page Begin -->
+  <?php Theme::plugins('pageBegin') ?>
 
-    <!-- page header -->
-    <header class="page-header">
+  <!-- page header -->
+  <header class="page-header">
 
-        <!-- page title -->
-        <h2 class="page-title">
-            <a href="<?php echo $Page->permalink() ?>"><?php echo $Page->title() ?></a>
-        </h2>
+    <!-- page title -->
+    <h2 class="page-title">
+      <a href="<?php echo $Page->permalink() ?>"><?php echo $Page->title() ?></a>
+    </h2>
 
-    </header>
+  </header>
 
-    <!-- page content -->
-    <div class="page-content">
-        <?php echo $Page->content() ?>
-    </div>
+  <!-- Cover Image -->
+  <?php
+  	if($Page->coverImage()) {
+  		echo '<div class="cover-image"><a href="'.$Page->permalink().'" class=""><img src="'.$Page->coverImage().'" alt="Aqua Theme"></a></div>';
+  	}
+  ?>
 
-    <!-- Plugins Page Begin -->
-    <?php Theme::plugins('pageEnd') ?>
+  <!-- page content -->
+  <div class="page-content">
+    <?php echo $Page->content() ?>
+  </div>
 
-</section>
+  <!-- Plugins Page Begin -->
+  <?php Theme::plugins('pageEnd') ?>
+
+</article>

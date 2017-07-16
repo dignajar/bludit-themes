@@ -15,6 +15,6 @@ Change the Primary color to anything you like.
 
 Use a darker color for your Secondary color. This will be the nav background, text and buttons hover colors.
 
-You can view a demo of this theme at [deltatheme.com](https://deltatheme.com/bludit/aqua/)
+You can view a demo of this theme at [320up.com](https://320up.com/demo/bludit/)
 
 Don't forget to download our AddToAny social sharing plugin from [Bludit](https://github.com/dignajar/bludit-plugins)
