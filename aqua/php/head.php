@@ -1,11 +1,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo $Site->title() ?></title>
+<link rel="stylesheet" href="<?php echo HTML_PATH_THEME ?>css/aqua.css">
 <?php
 	// CSS from theme/css/
-	Theme::css(array(
-		'aqua.css'
-	));
+	// Theme::css(array(
+		// 'aqua.css'
+	// ));
 
 	// Javascript from theme/js/
 	// Theme::javascript('file.name.js');
