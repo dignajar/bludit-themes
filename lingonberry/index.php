@@ -85,7 +85,7 @@
 				</p>
 				
 				<p class="credits-right">
-					<span>Lingonberry by <a href="http://www.andersnoren.se">Anders Noren</a> — </span><span>Ported by <a href="http://www.iamnobuna.ga">Hakim Zulkufli</a> — </span><a class="tothetop">Up ↑</a>
+					<span>Lingonberry by <a href="http://www.andersnoren.se">Anders Noren</a> — Ported to <a href="https://www.bludit.com">Bludit</a> by <a href="https://protecting.faith">Hakim Zulkufli</a> — </span><a class="tothetop">Up ↑</a>
 				</p>
 
 				<div class="clear"></div>
