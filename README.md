@@ -1,5 +1,7 @@
 **--------------------------------------------------**
+
 **---> This repository is no longer maintained. <---**
+
 **--------------------------------------------------**
 
 These themes are only compatible with Bludit v1.x.
